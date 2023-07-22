@@ -1,0 +1,407 @@
+AWSTATS DATA FILE 6.4 (build 1.812)
+# If you remove this file, all statistics for date 2008-06 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2535                
+POS_VISITOR 7389                
+POS_DAY 9448                
+POS_DOMAIN 3303                
+POS_LOGIN 3536                
+POS_ROBOT 3731                
+POS_WORMS 3960                
+POS_EMAILSENDER 4091                
+POS_EMAILRECEIVER 4234                
+POS_SESSION 10231               
+POS_SIDER 10439               
+POS_FILETYPES 4369                
+POS_OS 4576                
+POS_BROWSER 4689                
+POS_SCREENSIZE 4899                
+POS_UNKNOWNREFERER 4973                
+POS_UNKNOWNREFERERBROWSER 5379                
+POS_ORIGIN 5589                
+POS_SEREFERRALS 5729                
+POS_PAGEREFS 5894                
+POS_SEARCHWORDS 6181                
+POS_KEYWORDS 6431                
+POS_MISC 2198                
+POS_ERRORS 6554                
+POS_CLUSTER 3392                
+POS_SIDER_404 6668                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20080701180736 1 0 27320976364
+FirstTime 20080601054526
+LastTime 20080630070048
+LastUpdate 20080703042316 1 0 0 0 0
+TotalVisits 127                 
+TotalUnique 50                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 50                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 24 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 1107 2 2 415
+1 8 32 531719 5 5 3031
+2 72 347 4571055 6 7 2970
+3 45 407 2041095 3 3 1227
+4 163 1128 12618324 8 8 2274
+5 114 558 9492331 19 20 12810
+6 73 559 12748291 4 4 1235
+7 59 479 6512138 10 10 5183
+8 48 198 5947501 7 7 3270
+9 64 189 1469462 11 11 6391
+10 138 689 5700665 6 6 3054
+11 73 496 5672565 9 9 4757
+12 20 151 2729522 8 8 4552
+13 73 347 4010031 4 4 1251
+14 38 254 3480591 6 6 2172
+15 16 40 332453 6 7 2373
+16 40 120 2200750 10 11 326979
+17 26 164 2534981 5 5 1034
+18 32 206 3186961 2 2 432
+19 30 201 3050539 4 5 2930
+20 57 92 1689634 3 3 1527
+21 20 113 953125 4 4 1726
+22 13 99 2114226 2 2 1327
+23 16 104 1026263 28 28 7175
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1239 6974 94615329
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+bbretail 403 403 2816902 20080629064524
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+googlebot 16 2736 20080629114518 0
+msnbot 2 1768 20080627091845 0
+jeeves 1 1107 20080606194600 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+htm 712 4025409 0 0
+swf 285 58983689 0 0
+html 98 117580 0 0
+jpg 305 5287924 0 0
+Unknown 24 5520 0 0
+gif 5145 23084373 0 0
+exe 403 2816902 0 0
+wav 2 293932 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 5
+winlong 1393
+winxp 3791
+win2003 79
+winnt 1
+Unknown 1693
+linux 12
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 11
+msie6.0 576
+firefox2.0.0.14 1338
+firefox1.0.7 5
+firefox1.0 1
+mozilla 1257
+msie7.0 3270
+msie5.0 1
+firefox2.0.0.12 6
+firefox2.0.0.6 2
+netscape7.2 82
+Unknown 436
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+- 20080616043721
+Mozilla/5.0_(compatible;_AboutUsBot/0.9;__http://www.aboutus.org/AboutUsBot) 20080618125120
+bot/1.0_(bot;_http://;_bot@bot.bot) 20080615064546
+MSFrontPage/6.0 20080629064524
+Mozilla/4.0_(compatible;) 20080629235045
+Mozilla/4.0_(compatible;_MS_FrontPage_6.0) 20080629064458
+panscient.com 20080616231522
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+- 20080616043721
+bot/1.0_(bot;_http://;_bot@bot.bot) 20080615064546
+MSFrontPage/6.0 20080629064524
+panscient.com 20080616231522
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 662 1990
+From1 0 0
+From2 4 4
+From3 0 7
+From4 573 4973
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 3 3
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://nrgstix.com 0 1
+http://lightningrodsbeef.com 0 1
+http://energybeefstick.com 0 2
+http://steerrods.com 0 1
+http://www.nrgstix.com 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+www.powerhungryfoods.com 1
+power+hungry+foods+inc 1
+power+hungry+foods 1
+power+hungry+foods+llc 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 6
+power 3
+foods 3
+hungry 3
+www.powerhungryfoods.com 1
+inc 1
+llc 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+401 24 9816
+206 36 359927
+404 98 24741
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 20
+/tmTopPHF2.jpg 1 -
+/robots.txt 66 http://www.whois.sc/
+/homepage.htlm 2 -
+/Flash%20Home%20Text%20Top%2007.swf 1 -
+/homepage/html 2 -
+/homepage.htlm/ 1 -
+/login/editor/pictureedit.asp 1 -
+/homepage/hmtl/ 2 -
+/homepage.html 1 -
+/homepage.hmtl/ 5 -
+/homepage.hmtl 2 -
+/sitemap 3 -
+/sitemap.com 1 -
+/homepage/htm 1 -
+/login/ 1 -
+/homepage/hmtl 3 -
+/Shop%20Online 1 -
+/homepage/ 1 -
+/gaqs.htm 1 -
+/homepage/htlm 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 50
+70.89.59.42 650 3855 37522980 20080629130256
+68.204.180.71 255 1184 21906103 20080626210624
+64.83.224.129 75 207 4279932 20080625114427
+67.60.0.41 52 540 6488581 20080626112931
+71.115.21.153 30 51 1993543 20080624044722
+71.87.36.154 22 109 2210556 20080620174012
+74.41.166.46 21 183 2764700 20080620142247
+12.174.204.2 18 112 2344518 20080612082340
+69.95.200.5 16 102 2210761 20080612060914
+71.41.229.112 13 102 2336598 20080624112502
+75.101.198.89 1 2 18763 20080630042548
+65.190.135.137 1 2 18763 20080602114801
+216.158.1.205 1 1 1107 20080605125718
+38.100.41.102 1 1 1107 20080607102310
+69.36.158.32 1 1 1107 20080611082653
+206.123.89.47 1 1 1107 20080628175713
+75.101.211.151 1 1 0 20080603203610
+38.100.41.107 2 2 2214 20080607163353
+192.172.8.14 2 4 37526 20080620053708
+205.245.41.105 1 2 18763 20080617165713
+74.52.245.146 1 1 1107 20080622020235
+69.36.158.62 1 1 1107 20080617080550
+69.36.158.38 1 1 1107 20080609184153
+69.36.158.33 1 1 1107 20080612101646
+216.145.16.235 1 2 18958 20080618131028
+192.91.171.42 9 90 2237705 20080602062456
+204.154.89.30 1 2 18763 20080618175139
+67.202.8.128 2 2 2214 20080611001823
+209.234.171.224 1 2 18763 20080630053113
+69.25.8.138 7 66 760066 20080602063818
+199.178.201.11 11 78 2305617 20080630070048
+192.91.172.42 3 84 2068377 20080602123602
+66.179.106.9 6 71 774059 20080619122214
+204.128.70.65 1 2 18763 20080603055126
+208.219.207.2 1 1 1107 20080616043721
+38.100.41.112 1 1 1107 20080604055909
+38.105.83.10 1 1 1107 20080611160948
+71.219.156.246 1 2 18763 20080617110616
+69.36.158.63 1 1 1107 20080617082046
+68.202.37.252 9 82 2084325 20080601123953
+75.101.229.90 1 2 18763 20080630064704
+216.158.1.200 1 1 1107 20080604173517
+24.187.116.129 1 2 18763 20080627142555
+66.208.240.66 2 4 37526 20080606094618
+216.158.1.198 1 1 1107 20080615064546
+38.104.58.118 5 5 4560 20080616231522
+99.200.69.207 1 2 18763 20080629082735
+38.100.41.113 1 1 1107 20080613094642
+66.249.16.207 1 1 912 20080618125120
+75.101.221.37 1 2 18763 20080630055648
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20080601 34 307 4457887 4
+20080602 35 237 5415370 7
+20080603 47 296 4461473 6
+20080604 6 14 3321 5
+20080605 3 4 19870 3
+20080606 6 72 773864 2
+20080607 24 112 2320195 4
+20080608 19 106 2420859 2
+20080609 34 246 1768866 6
+20080610 149 724 10206380 7
+20080611 47 331 2012068 10
+20080612 44 305 5431216 4
+20080613 332 1578 7026419 8
+20080615 35 271 3742893 5
+20080616 157 1013 12347624 8
+20080617 22 113 2165136 6
+20080618 20 38 284680 4
+20080619 33 39 80188 4
+20080620 56 329 5543966 6
+20080621 19 114 2241860 2
+20080622 10 88 2119650 3
+20080623 26 218 8157868 2
+20080624 30 133 3984048 3
+20080625 19 71 1738101 2
+20080626 3 59 517100 2
+20080627 12 81 2342231 3
+20080628 1 1 1107 1
+20080629 11 65 2954930 3
+20080630 5 9 76159 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 24
+0s-30s 65
+30s-2mn 12
+15mn-30mn 5
+2mn-5mn 8
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/_vti_bin/_vti_aut/author.exe 403 2816902 0 3
+/homepage.htm 114 416736 57 23
+/ 75 77238 58 50
+/faqs.htm 59 604785 0 1
+/madskills.htm 46 233203 0 7
+/buylightningrods.htm 46 282653 0 3
+/buygear.htm 42 183061 0 8
+/rodreviews.htm 41 198147 1 1
+/meatsponsors.htm 40 176648 0 3
+/nutritionalinformation.htm 39 179804 0 2
+/sitemap.htm 38 339405 0 7
+/readall.htm 24 117781 0 1
+/locateretail.htm 16 108281 0 2
+/_vti_bin/shtml.exe/_vti_rpc 23 5520 0 1
+/locatedistributor.htm 23 188494 0 3
+/buyenergybeefsticks.htm 19 48900 0 0
+/buylightningrods2.htm 18 241285 0 0
+/reviewersavage.htm 12 8264 0 1
+/reviewerthornsley.htm 1 1124 0 0
+/mailinglist.htm 29 147536 0 0
+/_vti_inf.html 23 40342 10 0
+/meatminotaur.htm 37 176676 0 3
+/thunder.wav 2 293932 0 0
+/reviewerdawn.htm 6 6592 0 0
+/aboutus.htm 28 195430 0 1
+/faqscaffeine.htm 3 6216 0 1
+/contactus.htm 27 131484 0 4
+/privacystatement.htm 4 32904 0 1
+END_SIDER

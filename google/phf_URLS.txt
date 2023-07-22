@@ -1,0 +1,73 @@
+# To add a list of URLs, make a space-delimited text file. The first
+# column contains the URL; then you can specify various optional
+# attributes in the form key=value:
+#
+#  lastmod    = modification time in ISO8601 (YYYY-MM-DDThh:mm:ss+00:00)
+#  changefreq = 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' |
+#               'yearly' | 'never'
+#  priority   = priority of the page relative to other pages on the same site;
+#                a number between 0.0 and 1.0, where 0.0 is the lowest priority
+#                and 1.0 is the highest priority
+#
+# Note that all URLs must be part of the site, and therefore must begin with
+# the base_url (e.g., 'http://www.example.com/') as specified in config.xml.
+#
+# Any line beginning with a # is a comment.
+#
+# Example contents of the file:
+#
+# http://www.example.com/foo/bar
+# http://www.example.com/foo/xxx.pdf lastmod=2003-12-31T14:05:06+00:00
+# http://www.example.com/foo/yyy?x=12&y=23 changefreq=weekly priority=0.3
+# 
+
+http://www.powerhungryfoods.com/aboutus.htm changefreq=monthly
+http://www.powerhungryfoods.com/buyenergybeefsticks.htm changefreq=monthly priority=0.9
+http://www.powerhungryfoods.com/buygear.htm changefreq=monthly priority=0.9
+http://www.powerhungryfoods.com/contactus.htm changefreq=monthly
+http://www.powerhungryfoods.com/faqs.htm changefreq=monthly
+http://www.powerhungryfoods.com/faqscaffeine.htm changefreq=monthly
+http://www.powerhungryfoods.com/index.html changefreq=weekly priority=1
+http://www.powerhungryfoods.com/locatedistributor.htm changefreq=monthly
+http://www.powerhungryfoods.com/locateretail.htm changefreq=monthly
+http://www.powerhungryfoods.com/madskills.htm changefreq=monthly
+http://www.powerhungryfoods.com/mailinglist.htm changefreq=monthly
+http://www.powerhungryfoods.com/meatminotaur.htm changefreq=monthly
+http://www.powerhungryfoods.com/meatsponsors.htm changefreq=monthly
+http://www.powerhungryfoods.com/nutritionalinformation.htm changefreq=monthly
+http://www.powerhungryfoods.com/privacystatement.htm changefreq=monthly
+http://www.powerhungryfoods.com/readall.htm changefreq=monthly priority=0.7
+http://www.powerhungryfoods.com/reviewerbearson.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerbearson2.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerbevans.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerblyth.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerbuthker.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerdawn.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerdinkins.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerdixon.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerduff.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerhawkins.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerkellyann.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerkollar.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerlarrymazza.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerlongmire.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerlongmirefeature.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerlostgingras.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewermillar.htm changefreq=monthly
+http://www.powerhungryfoods.com/revieweroscarcortina.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewersavage.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerthornsley.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerwalsh.htm changefreq=monthly
+http://www.powerhungryfoods.com/reviewerwalters.htm changefreq=monthly
+http://www.powerhungryfoods.com/rodreviews.htm changefreq=monthly
+http://www.powerhungryfoods.com/rodreviewsbyjox.htm changefreq=monthly
+http://www.powerhungryfoods.com/rodreviewsbyletusprey.htm changefreq=monthly
+http://www.powerhungryfoods.com/rodreviewsbylimelighters.htm changefreq=monthly
+http://www.powerhungryfoods.com/rodreviewsbymateaters.htm changefreq=monthly
+http://www.powerhungryfoods.com/rodreviewsbymedix.htm changefreq=monthly
+http://www.powerhungryfoods.com/rodreviewsbynoflatearth.htm changefreq=monthly
+http://www.powerhungryfoods.com/sitemap.htm changefreq=monthly
+http://www.powerhungryfoods.com/sos.htm changefreq=monthly
+http://www.powerhungryfoods.com/YahooPR030609Low.pdf changefreq=never
+http://www.powerhungryfoods.com/PHFPressRelease030609.pdf changefreq=never
+http://www.powerhungryfoods.com/Memo%20Rody%20Hawkins,%20PhD%20Low.pdf changefreq=never

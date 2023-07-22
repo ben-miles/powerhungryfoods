@@ -1,0 +1,379 @@
+AWSTATS DATA FILE 6.4 (build 1.812)
+# If you remove this file, all statistics for date 2009-06 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2534                
+POS_VISITOR 6338                
+POS_DAY 8486                
+POS_DOMAIN 3127                
+POS_LOGIN 3358                
+POS_ROBOT 3550                
+POS_WORMS 3711                
+POS_EMAILSENDER 3842                
+POS_EMAILRECEIVER 3985                
+POS_SESSION 8814                
+POS_SIDER 9020                
+POS_FILETYPES 4120                
+POS_OS 4315                
+POS_BROWSER 4389                
+POS_SCREENSIZE 4504                
+POS_UNKNOWNREFERER 4578                
+POS_UNKNOWNREFERERBROWSER 4771                
+POS_ORIGIN 4901                
+POS_SEREFERRALS 5039                
+POS_PAGEREFS 5183                
+POS_SEARCHWORDS 5405                
+POS_KEYWORDS 5557                
+POS_MISC 2198                
+POS_ERRORS 5616                
+POS_CLUSTER 3214                
+POS_SIDER_404 5734                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20090707155900 1 0 34977116351
+FirstTime 20090604074012
+LastTime 20090629064342
+LastUpdate 20090708034832 1 0 0 0 0
+TotalVisits 32                  
+TotalUnique 25                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 72                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 8 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 27 152 987539 1 1 409
+3 8 8 115871 1 1 325
+4 5 15 292315 0 1 18268
+5 19 383 1808558 2 2 818
+6 8 131 715314 1 1 409
+7 6 117 982157 1 1 72574
+8 31 601 1402089 6 6 377504
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 42 371 1140089 2 14 199556
+13 24 220 1587035 4 4 266721
+14 0 0 0 0 0 0
+15 20 121 659324 8 10 53365
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 1 1 325
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 190 2119 9690291
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+bbretail 56 56 471231 20090618061853
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+robot 2 650 20090623034914 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+pdf 35 2043932 0 0
+htm 3 3684 0 0
+swf 26 271524 0 0
+html 90 674900 0 0
+jpg 29 339324 0 0
+Unknown 6 1440 0 0
+gif 1874 5884256 0 0
+exe 56 471231 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 3
+winlong 238
+winxp 1560
+Unknown 321
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 5
+msie8.0 261
+firefox3.0.11 692
+mozilla 258
+Unknown 63
+msie7.0 845
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+- 20090629064342
+MSFrontPage/6.0 20090618061853
+Mozilla/4.0_(compatible;_MS_FrontPage_6.0) 20090618061855
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+- 20090629064342
+MSFrontPage/6.0 20090618061853
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 113 570
+From1 0 0
+From2 0 0
+From3 1 1
+From4 76 1548
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.sitedossier.com/site/www.phfmarketing.powerhungryfoods.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+401 6 2454
+302 8 40
+206 15 987130
+404 11 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 11
+/SellSheetBiFoldInside.gif 1 -
+/Border-PHF-Silver-447x25.jpg 1 -
+/Graphic-Minotaur-on-Black2.gif 1 -
+/MSLogo-POS2.gif 1 -
+/HardHat13.gif 1 -
+/MSLogo-Pics.gif 1 -
+/BrokerHomeText07Perc.gif 1 -
+/MSLogo-Slicks.gif 1 -
+/SellSheetBiFoldOutside.gif 1 -
+/Integrity-11.gif 1 -
+/EnergyMinotaur3.gif 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 72
+70.89.59.41 92 1274 5004140 20090618065930
+71.42.151.123 20 121 659324 20090611153442
+173.23.157.202 18 32 451175 20090605120247
+97.104.137.170 11 117 880904 20090607045400
+75.174.158.14 7 100 731006 20090612132237
+70.182.103.33 6 117 982157 20090604074147
+64.12.116.130 4 4 7544 20090623122930
+64.12.116.73 4 12 12964 20090609125734
+64.12.117.66 3 7 10842 20090623122931
+64.12.116.13 3 12 81511 20090609125650
+64.12.116.70 0 4 4872 
+69.71.222.186 1 1 25231 20090629064342
+64.12.117.69 1 4 7550 20090609125528
+64.12.117.19 0 1 0 
+64.12.116.15 0 10 27762 
+64.12.116.6 0 9 12346 
+64.12.117.16 0 10 26105 
+64.12.116.75 1 1 0 20090609125649
+64.12.116.139 0 8 12930 
+64.12.116.68 0 1 0 
+64.12.117.73 0 9 12272 
+64.12.117.79 2 6 11133 20090609132315
+64.12.116.76 0 8 11802 
+64.12.116.137 0 5 6430 
+64.12.116.77 0 7 13006 
+64.12.116.197 0 8 12161 
+64.12.116.8 0 5 27100 
+64.12.116.208 0 1 0 
+64.12.117.80 0 5 6064 
+64.12.116.133 0 6 10461 
+64.12.117.5 1 2 5725 20090623122942
+64.12.116.14 0 12 20636 
+64.12.117.9 0 8 5989 
+64.12.116.135 0 3 6892 
+64.12.117.65 0 2 7382 
+64.12.116.134 0 2 3161 
+64.12.117.20 0 6 12278 
+64.12.116.74 0 13 16712 
+64.12.116.144 0 12 17460 
+64.12.117.7 0 1 0 
+64.12.117.67 1 5 6852 20090609125528
+64.12.116.80 1 10 25668 20090609125635
+64.12.116.143 0 4 6122 
+24.27.186.62 0 7 18178 
+64.12.116.195 0 4 17288 
+64.12.116.200 0 1 2126 
+64.12.112.44 0 3 0 
+64.12.116.196 0 2 6528 
+64.12.116.201 1 13 24347 20090609125649
+64.12.116.141 0 8 13132 
+64.12.116.10 0 9 78084 
+64.12.116.206 0 2 0 
+64.12.116.79 0 13 24652 
+64.12.116.7 3 3 4217 20090609125734
+64.12.116.207 2 6 11622 20090609125706
+64.12.117.75 0 1 0 
+64.12.116.142 1 1 4137 20090609125747
+64.12.117.70 0 7 6078 
+64.12.117.11 0 6 20005 
+64.12.117.77 0 5 5820 
+64.12.117.74 0 4 5968 
+64.12.116.11 0 2 6076 
+64.12.117.71 1 5 181287 20090609132337
+64.12.117.10 2 2 5921 20090609125436
+64.12.116.199 0 2 6032 
+64.12.117.17 0 4 5888 
+64.12.116.67 1 5 11294 20090609125752
+64.12.116.205 0 2 2559 
+64.12.117.6 3 7 21255 20090609132326
+64.12.117.13 0 6 12184 
+64.12.116.204 0 2 6634 
+64.12.117.12 0 2 5310 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20090604 22 237 1840818 3
+20090605 43 174 1284513 2
+20090607 5 15 292315 1
+20090608 10 103 488170 1
+20090609 32 271 591037 17
+20090611 20 121 659324 1
+20090612 7 100 731006 1
+20090614 31 601 1402089 1
+20090618 16 410 2010471 1
+20090623 3 86 365317 3
+20090629 1 1 25231 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 1
+30s-2mn 3
+2mn-5mn 3
+15mn-30mn 5
+0s-30s 13
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 38
+/_vti_bin/_vti_aut/author.exe 56 471231 0 0
+/ 18 174206 13 5
+/productspecifications.html 13 210861 1 1
+/pricelist.html 8 44665 2 2
+/thankyou.html 8 31208 0 1
+/Specs-LRDisplayCaseLabel.pdf 7 260088 1 2
+/PriceList-Specs.pdf 7 41568 0 2
+/_vti_bin/shtml.exe/_vti_rpc 6 1440 0 0
+/_vti_inf.html 6 10524 2 0
+/samplerequests.html 5 11497 1 1
+/purchaseorders.html 1 4137 1 1
+/dealandslottingform.html 2 9259 1 1
+/formulaanalysis.html 2 4800 1 1
+/productintegrity.html 3 0 1 1
+/Marketing-HighVoltage.pdf 1 154935 0 0
+/mediasupport.html 2 61859 0 1
+/slickslogos.html 1 4468 0 0
+/aboutusbearson.htm 1 1231 0 1
+/Specs-CaseLabelIWPack.pdf 1 77179 0 0
+/PriceList-Shipping.pdf 2 338684 0 0
+/premiums.html 4 5758 1 1
+/Specs-CaseLabel2x42.pdf 1 46379 0 0
+/brokermap.html 1 26664 0 0
+/aboutushawkins.htm 1 1227 0 0
+/SellSheets-BiFoldComplete.pdf 2 166359 0 1
+/Specs-PHFItemCodeLRIWPack.pdf 1 47532 0 0
+/Specs-PHFItemCodeLR421.pdf 5 393356 0 2
+/contactus.html 1 0 1 0
+/aboutushalley.htm 1 1226 0 0
+/sellsheets.html 5 17869 1 1
+/Specs-PHFItemCodeLR2x42.pdf 4 208237 0 1
+/marketingsupplies.html 4 8481 1 1
+/aboutus.html 4 43294 1 1
+/productpictures.html 1 0 1 1
+/fabqs.html 1 5350 0 0
+/Specs-CaseLabel421.pdf 1 53681 0 1
+/PriceList.pdf 2 255934 1 1
+/Formula-LRodsSynergy.pdf 1 0 1 1
+END_SIDER

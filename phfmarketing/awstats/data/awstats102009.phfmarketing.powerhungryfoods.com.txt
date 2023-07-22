@@ -1,0 +1,314 @@
+AWSTATS DATA FILE 6.4 (build 1.812)
+# If you remove this file, all statistics for date 2009-10 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2534                
+POS_VISITOR 6119                
+POS_DAY 6569                
+POS_DOMAIN 3125                
+POS_LOGIN 3357                
+POS_ROBOT 3549                
+POS_WORMS 3681                
+POS_EMAILSENDER 3812                
+POS_EMAILRECEIVER 3955                
+POS_SESSION 6870                
+POS_SIDER 7065                
+POS_FILETYPES 4090                
+POS_OS 4352                
+POS_BROWSER 4436                
+POS_SCREENSIZE 4560                
+POS_UNKNOWNREFERER 4634                
+POS_UNKNOWNREFERERBROWSER 4862                
+POS_ORIGIN 5027                
+POS_SEREFERRALS 5164                
+POS_PAGEREFS 5308                
+POS_SEARCHWORDS 5499                
+POS_KEYWORDS 5651                
+POS_MISC 2198                
+POS_ERRORS 5710                
+POS_CLUSTER 3213                
+POS_SIDER_404 5810                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20091103124527 1 0 55483269937
+FirstTime 20091003184827
+LastTime 20091031030951
+LastUpdate 20091105032658 1 0 0 0 0
+TotalVisits 15                  
+TotalUnique 9                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 9                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 4 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 12 95114 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 14 107 517044 4 4 473146
+4 3 93 531496 0 0 0
+5 46 404 6069736 9 9 331429
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 33 322 5148038 18 18 2718426
+10 5 8 149837 2 2 154546
+11 3 94 430368 0 0 0
+12 5 8 120151 1 1 47057
+13 13 56 629103 10 10 1831753
+14 5 5 56593 1 1 116464
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 1 1 15429 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 1 88 367793 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 133 1198 14130702
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+bbretail 16 16 132265 20091031030939
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+png 73 26416 0 0
+pdf 27 2080550 0 0
+ppt 3 4819968 0 0
+htm 1 1254 0 0
+pl 6 170704 0 0
+swf 11 143748 0 0
+html 75 274187 0 0
+jpg 15 369383 0 0
+Unknown 2 480 0 0
+gif 966 5229059 0 0
+exe 16 132265 0 0
+xls 3 882688 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 4
+macosx 165
+winxp 675
+winlong 258
+Unknown 100
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 6
+msie8.0 377
+mozilla 80
+Unknown 20
+msie7.0 197
+firefox3.5.3 359
+safari 165
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+MSFrontPage/6.0 20091031030939
+Microsoft_Office_Existence_Discovery 20091027094742
+Mozilla/4.0_(compatible;_MS_FrontPage_6.0) 20091031030711
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+MSFrontPage/6.0 20091031030939
+Microsoft_Office_Existence_Discovery 20091027094742
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 44 122
+From1 0 0
+From2 0 0
+From3 1 1
+From4 88 1075
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://us.mg3.mail.yahoo.com/dc/launch 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+401 2 818
+206 43 5672003
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 9
+70.89.59.41 35 390 2103761 20091031030951
+69.11.136.50 31 181 1681818 20091008143132
+68.173.38.81 28 164 4583426 20091029055129
+166.128.1.53 21 164 4165779 20091027094742
+173.23.157.202 8 102 550519 20091014122738
+71.112.106.148 5 100 462907 20091010000351
+97.104.137.170 3 93 531496 20091009045327
+68.178.68.177 1 3 35567 20091027094815
+166.205.131.50 1 1 15429 20091003184827
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 10
+20091003 1 1 15429 1
+20091006 13 120 996122 2
+20091008 21 155 1116064 2
+20091009 4 181 899289 2
+20091010 22 252 1581424 2
+20091014 5 8 120151 1
+20091026 3 43 100407 1
+20091027 22 167 4201346 2
+20091029 28 164 4583426 1
+20091031 14 107 517044 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+5mn-15mn 2
+2mn-5mn 1
+0s-30s 5
+30s-2mn 5
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 46
+/_vti_bin/_vti_aut/author.exe 16 132265 0 0
+/ 12 30608 8 1
+/marketingsupplies.html 7 25626 0 0
+/PriceList-Specs.pdf 6 77145 1 4
+/categorydata.html 6 13299 0 0
+/cgi-bin/awstats.pl 6 170704 1 1
+/mediasupport.html 5 25144 0 0
+/pricelist.html 5 12906 0 0
+/dealandslottingform.html 4 13980 0 0
+/formulaanalysis.html 4 14562 1 0
+/productphotomultipleboxjpeg.htm 1 1254 0 1
+/Media-ReleaseMeatPoultry.pdf 1 81412 0 1
+/Marketing-MeatStixGone.pdf 2 158504 0 0
+/_vti_bin/shtml.exe/_vti_rpc 2 480 0 0
+/Formula-TheOriginalEnergy.pdf 1 55132 0 1
+/purchaseorders.html 1 4191 0 0
+/insurancecertificate.html 1 5693 0 0
+/_vti_inf.html 2 3508 2 0
+/pointofsalesupplies.html 1 6094 0 0
+/slickslogos.html 1 4475 0 0
+/Presentation-LRodsPDF.pdf 2 150300 0 0
+/premiums.html 2 11530 1 0
+/Specs-CaseLabel2x42.pdf 1 130044 0 1
+/Caffeinated-Snacks.pdf 1 31183 0 0
+/brokermap.html 2 8382 0 0
+/deductionpolicies.html 3 8980 0 0
+/Data-NACSMagazine.pdf 2 68234 0 0
+/Media-ReleaseMeatingplace.pdf 2 523778 0 1
+/Presentation-LRodsPPT.ppt 3 4819968 0 1
+/salestracker.html 2 7762 1 1
+/Specs-PHFItemCodeLR421.pdf 1 85928 0 0
+/contactus.html 1 4620 0 0
+/Data-BeefStickPackaging.pdf 2 126802 0 0
+/creditapplications.html 1 4221 0 0
+/DeductionRequestForm.pdf 1 94122 0 0
+/sellsheets.html 1 5979 0 0
+/productpictures.html 1 4345 0 0
+/BrokerMap.pdf 3 358501 0 0
+/caffeinatedcomps.html 3 8424 0 0
+/aboutus.html 2 11950 0 0
+/DealAndSlottingForm.xls 3 882688 0 0
+/fabqs.html 3 16071 0 1
+/Data-CompetitiveAnalysis.pdf 1 56593 0 1
+/PriceList.pdf 1 82872 0 0
+/presentations.html 3 13143 0 0
+/productspecifications.html 2 8694 0 0
+END_SIDER

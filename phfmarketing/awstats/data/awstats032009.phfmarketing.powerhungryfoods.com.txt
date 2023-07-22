@@ -1,0 +1,767 @@
+AWSTATS DATA FILE 6.4 (build 1.812)
+# If you remove this file, all statistics for date 2009-03 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2545                
+POS_VISITOR 8905                
+POS_DAY 18169               
+POS_DOMAIN 3387                
+POS_LOGIN 3622                
+POS_ROBOT 3820                
+POS_WORMS 4017                
+POS_EMAILSENDER 4148                
+POS_EMAILRECEIVER 4291                
+POS_SESSION 19066               
+POS_SIDER 19278               
+POS_FILETYPES 4426                
+POS_OS 4677                
+POS_BROWSER 4801                
+POS_SCREENSIZE 5044                
+POS_UNKNOWNREFERER 5118                
+POS_UNKNOWNREFERERBROWSER 5825                
+POS_ORIGIN 6356                
+POS_SEREFERRALS 6502                
+POS_PAGEREFS 6646                
+POS_SEARCHWORDS 8245                
+POS_KEYWORDS 8397                
+POS_MISC 2208                
+POS_ERRORS 8456                
+POS_CLUSTER 3478                
+POS_SIDER_404 8580                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20090401061910 116 32665 36504990356
+FirstTime 20090301065911
+LastTime 20090331182036
+LastUpdate 20090402034831 116 0 115 0 0
+TotalVisits 208                 
+TotalUnique 61                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 341                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 70 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 2 4600 0 0 0
+1 0 1 2300 0 0 0
+2 0 3 6900 1 2 2715
+3 171 2207 10295227 14 14 789887
+4 404 2902 19679523 17 17 2775885
+5 413 6982 26906580 42 43 5540046
+6 483 4971 30871781 90 94 5071553
+7 286 3684 14103209 57 57 2589451
+8 179 1406 18512465 63 64 3091036
+9 207 1651 9914119 6 6 194182
+10 200 1421 13887243 9 9 807837
+11 362 2391 19311142 23 23 2094070
+12 494 2893 23309745 20 20 1439155
+13 447 2807 23436770 6 6 437890
+14 279 1558 13630459 25 25 2323064
+15 188 1866 9306767 48 48 2441805
+16 166 917 12785163 11 17 1826274
+17 47 184 3457882 10 10 855824
+18 69 377 2786080 1 1 112474
+19 132 372 8612370 17 17 2443006
+20 16 296 1803640 0 0 0
+21 89 252 10243170 9 9 1346438
+22 26 150 1618799 0 0 0
+23 0 5 11500 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 4658 39298 274497434
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+bbretail 2217 2217 31068087 20090331070419
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+unknown 2 378 20090319091615 2
+googlebot 2 4600 20090318055052 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+png 40 14162 0 0
+pdf 514 82615305 0 0
+pl 4 94363 0 0
+swf 457 5733948 0 0
+html 1808 21781950 0 0
+jpg 572 4380100 0 0
+Unknown 67 16080 0 0
+xls 48 8549215 0 0
+exe 2217 31068087 0 0
+gif 33571 120244224 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 305
+winxp 25782
+winlong 3882
+win2003 1
+win2000 5
+Unknown 9321
+win98 1
+linux 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 14
+msie6.0 326
+msie8.0 7
+firefox3.0.3 4
+firefox1.0.7 1
+firefox2.0.0.20 3
+firefox3.0.7 7584
+mozilla 7014
+firefox3.0.6 5258
+msie7.0 9689
+opera 1
+msie5.5 1
+Unknown 2305
+safari 111
+firefox3.0.8 6994
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Mozilla/4.1_(compatible;_MSIE_6.0;_)_400x240_LGE_VX10000 20090331095505
+BlackBerry9530/4.7.0.75_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20090312110502
+MSFrontPage/6.0 20090331070419
+BlackBerry8330/4.3.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/106 20090327155449
+BlackBerry9530/4.7.0.65_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20090311080713
+Microsoft_Office_Existence_Discovery 20090330160939
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102 20090311161553
+Mozilla/4.0_(compatible;) 20090325161324
+Mozilla/4.0_(compatible;_MS_FrontPage_6.0) 20090331064416
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102 20090311161553
+BlackBerry9530/4.7.0.75_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20090312110502
+MSFrontPage/6.0 20090331070419
+BlackBerry8330/4.3.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/106 20090327155449
+BlackBerry9530/4.7.0.65_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20090311080713
+Microsoft_Office_Existence_Discovery 20090330160939
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2941 10442
+From1 0 0
+From2 0 0
+From3 3 845
+From4 1714 28011
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 32
+http://webmail.aol.com/41921/aol/en-us/Suite.aspx 2 2
+http://us.mc322.mail.yahoo.com/mc/welcome 1 1
+http://www.powerhungryfoods.com/homepagetest.html 0 4
+http://www.powerhungryfoods.com/rodreviews.htm 0 19
+http://www.powerhungryfoods.com/faqs.htm 0 17
+http://www.powerhungryfoods.com/homepage.htm 0 28
+http://www.powerhungryfoods.com/aboutus.htm 0 18
+http://www.powerhungryfoods.com/contactus.htm 0 3
+http://steerrods.com 0 2
+http://www.powerhungryfoods.com 0 4
+http://www.powerhungryfoods.com/meatsponsors.htm 0 8
+http://powerhungryfoods.com 0 45
+http://www.powerhungryfoods.com/nutritionalinformation.htm 0 11
+http://www.nrgstix.com 0 14
+http://www.powerhungryfoods.com/index.html 0 81
+http://www.powerhungryfoods.com/buyenergybeefsticks.htm 0 6
+http://powerhungryfoods.com/madskills.htm 0 3
+http://powerhungryfoods.com/nutritionalinformation.htm 0 1
+http://www.powerhungryfoods.com/buygear.htm 0 19
+http://www.powerhungryfoods.com/readall.htm 0 18
+http://powerhungryfoods.com/homepage.htm 0 3
+http://lightningrodsbeef.com 0 1
+http://www.powerhungryfoods.com/faqsold.htm 0 3
+http://www.powerhungryfoods.com/sitemap.htm 0 2
+http://www.nrgstick.com 0 1
+http://www.powerhungryfoods.com/privacystatement.htm 0 8
+http://nrgseed.com 0 2
+http://www.powerhungryfoods.com 0 467
+http://www.powerhungryfoods.com/sos.htm 0 32
+http://nrgstix.com 0 3
+http://www.powerhungryfoods.com/meatminotaur.htm 0 5
+http://www.powerhungryfoods.com/rodreviewsbackup.htm 0 14
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+401 67 27403
+302 5 25
+206 404 36149356
+404 2 830
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1
+/robots.txt 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 341
+70.89.59.42 3302 32793 177814355 20090331112115
+97.104.136.62 518 1653 32622069 20090321213412
+64.83.224.129 276 819 15544863 20090331132057
+97.104.137.170 126 376 2889903 20090331182036
+97.124.72.81 46 167 3725653 20090319064449
+69.198.169.10 46 249 9325068 20090330125716
+97.104.131.247 34 222 1587183 20090327215528
+75.129.148.90 28 152 2663899 20090328140755
+66.185.5.22 27 228 2573360 20090325063225
+70.182.103.33 27 225 2514897 20090323133031
+205.188.116.68 0 2 26699 
+69.1.38.156 0 1 2300 
+68.80.98.140 8 101 2580515 20090305114302
+66.188.160.7 0 1 2300 
+207.200.116.69 0 1 2300 
+65.11.19.163 0 1 2300 
+24.187.120.211 0 1 2300 
+208.85.14.17 0 1 2300 
+205.188.117.6 0 1 5677 
+64.12.116.15 0 1 15972 
+209.114.198.66 0 1 2300 
+72.11.64.137 0 1 2300 
+64.12.116.6 5 5 4231 20090324122808
+66.191.227.208 0 1 2300 
+205.188.116.204 1 2 16893 20090319134914
+81.23.56.46 0 1 2300 
+69.205.35.73 11 97 1033891 20090319134648
+63.88.71.62 0 1 2300 
+67.132.38.38 0 1 2300 
+161.165.196.84 0 1 2300 
+64.93.112.252 0 2 4600 
+66.188.162.98 0 1 2300 
+71.1.141.64 0 1 2300 
+173.74.2.184 0 1 2300 
+38.104.69.46 0 2 4600 
+68.178.32.226 0 1 2300 
+205.188.116.70 0 1 33129 
+165.200.127.254 0 1 2300 
+216.15.66.210 0 1 2300 
+75.146.98.81 0 1 2300 
+68.178.58.66 0 1 2300 
+67.175.131.4 0 1 2300 
+209.74.19.11 0 1 2300 
+205.188.117.69 1 2 20544 20090319135705
+67.236.145.39 0 1 2300 
+68.39.57.52 0 2 4600 
+206.53.153.146 0 1 2300 
+32.139.217.61 0 1 2300 
+74.230.72.120 0 1 2300 
+12.172.137.2 0 1 2300 
+71.250.63.89 11 107 1146581 20090320064328
+74.33.28.40 0 2 4600 
+24.173.30.178 0 2 4600 
+64.12.117.5 1 1 0 20090324122913
+68.102.193.119 0 1 2300 
+69.95.200.5 0 1 2300 
+205.188.116.196 0 2 9374 
+75.177.150.130 15 113 1058399 20090320075404
+63.131.17.2 0 1 2300 
+38.105.72.200 0 1 2300 
+205.188.117.11 0 1 12913 
+205.188.117.10 2 2 5542 20090319135201
+68.229.185.164 0 1 2300 
+216.166.229.4 0 5 11500 
+70.152.251.108 0 2 4600 
+74.41.166.46 0 1 2300 
+70.217.216.151 0 4 9200 
+205.188.117.74 1 1 5829 20090319135747
+76.181.202.243 0 1 2300 
+173.24.168.126 0 1 2300 
+87.116.152.144 0 1 2300 
+75.198.78.73 0 1 2300 
+64.129.115.234 0 1 2300 
+205.188.116.208 0 1 26162 
+74.33.197.123 0 1 2300 
+68.224.15.126 1 81 344810 20090322181218
+216.186.6.16 0 1 2300 
+216.68.73.66 0 1 2300 
+74.92.143.237 0 1 2300 
+97.124.63.191 18 136 1076448 20090326090312
+216.239.28.226 0 1 2300 
+71.103.175.9 0 1 2300 
+71.246.46.229 27 213 1394509 20090329203207
+205.188.112.74 0 2 25314 
+65.31.152.32 0 2 4600 
+98.219.121.145 0 1 2300 
+69.124.172.16 0 1 2300 
+205.188.116.136 0 1 32356 
+75.110.169.195 0 1 2300 
+69.217.49.254 0 1 2300 
+173.75.46.92 0 1 2300 
+71.193.65.114 0 1 2300 
+205.188.116.9 0 2 15708 
+64.12.117.12 1 1 0 20090324115015
+169.200.204.34 0 1 2300 
+75.36.196.161 0 1 2300 
+67.211.52.130 5 6 298175 20090325112055
+203.3.70.8 0 1 2300 
+68.51.192.126 0 1 2300 
+67.84.12.143 0 1 2300 
+205.188.117.14 2 2 3846 20090319135652
+205.188.116.69 1 1 171073 20090319135218
+64.12.116.130 3 3 3650 20090324122808
+98.204.65.46 0 1 2300 
+98.70.72.177 0 1 2300 
+205.188.116.207 1 1 4484 20090319135137
+76.17.170.170 0 1 2300 
+70.121.116.47 0 1 2300 
+189.52.136.4 0 1 2300 
+64.12.116.137 0 1 13211 
+200.88.105.39 0 1 2300 
+206.53.153.101 0 1 2300 
+69.120.230.12 0 1 2300 
+12.2.1.190 0 1 2300 
+66.167.188.42 0 1 2300 
+66.15.94.68 0 2 4600 
+69.128.116.162 0 9 20700 
+208.107.85.218 2 91 386677 20090330115526
+165.247.0.215 0 1 2300 
+24.140.152.190 0 1 2300 
+65.120.85.66 0 4 9200 
+173.55.253.234 0 1 2300 
+116.71.173.87 0 1 2300 
+75.149.213.41 0 1 2300 
+68.190.104.140 0 1 2300 
+68.37.47.183 1 84 349645 20090310071440
+207.106.226.87 0 2 4600 
+64.12.116.13 0 1 13221 
+74.127.175.234 0 1 2300 
+199.243.246.26 0 1 2300 
+198.186.64.232 0 1 2300 
+198.68.1.2 0 1 2300 
+70.232.183.8 0 8 18400 
+75.90.226.61 0 1 2300 
+65.127.24.173 0 1 2300 
+74.7.93.241 0 1 2300 
+209.32.88.130 19 122 4448555 20090311163949
+71.52.10.18 0 1 2300 
+206.211.149.1 0 1 2300 
+98.148.255.206 0 1 2300 
+24.116.249.91 0 1 2300 
+64.12.116.201 3 3 4079 20090324123350
+205.172.21.153 0 1 2300 
+205.188.116.198 0 2 19018 
+98.206.88.123 0 1 2300 
+75.251.212.223 0 1 2300 
+76.19.76.172 0 1 2300 
+98.24.245.163 0 1 2300 
+204.112.242.211 0 1 2300 
+97.115.126.230 0 1 2300 
+66.162.171.102 0 1 2300 
+68.239.26.134 0 1 2300 
+98.219.21.98 0 1 2300 
+64.12.116.73 3 3 8042 20090324123417
+64.12.116.207 5 5 4484 20090324123350
+209.117.210.209 0 1 2300 
+70.194.108.123 0 1 2300 
+68.112.181.195 0 1 2300 
+66.189.169.28 0 1 2300 
+66.212.159.93 0 1 2300 
+216.66.29.10 0 1 2300 
+89.211.217.204 0 1 2300 
+72.1.7.7 0 2 4600 
+65.73.44.138 0 1 2300 
+170.202.22.1 0 1 2300 
+72.172.34.103 0 1 2300 
+67.60.1.159 0 27 62100 
+208.108.129.26 0 1 2300 
+138.210.164.73 0 1 2300 
+198.184.245.250 0 1 2300 
+75.182.88.177 0 5 11500 
+74.33.16.61 0 1 2300 
+74.94.154.253 0 1 2300 
+205.188.116.210 0 2 16436 
+208.251.219.186 0 1 2300 
+68.194.57.27 0 1 2300 
+64.255.97.72 0 1 2300 
+76.127.255.124 0 1 2300 
+150.70.84.27 1 1 25254 20090330132058
+136.181.195.17 0 2 4600 
+68.63.81.253 0 7 16100 
+98.24.242.240 0 3 6900 
+64.12.117.78 3 3 487864 20090324123557
+68.95.142.90 0 2 4600 
+210.56.19.13 0 1 2300 
+193.61.107.151 0 1 2300 
+70.58.85.87 0 1 2300 
+205.188.117.13 1 1 4231 20090319133540
+72.21.228.210 0 1 2300 
+68.213.134.204 0 1 2300 
+4.159.86.184 0 1 2300 
+65.114.202.254 0 1 2300 
+67.236.132.10 0 3 6900 
+173.16.248.151 0 1 2300 
+204.154.89.30 0 2 4600 
+70.110.218.45 0 1 2300 
+64.17.69.173 0 1 2300 
+98.227.144.115 0 1 2300 
+74.92.180.133 0 1 2300 
+205.188.116.139 1 2 515999 20090319135817
+169.130.158.66 0 1 2300 
+24.63.237.124 0 1 2300 
+66.15.33.208 0 7 16100 
+173.28.160.197 0 1 2300 
+68.75.108.101 0 12 4600 
+64.12.116.20 1 1 4722 20090324123317
+64.238.49.65 0 1 2300 
+151.207.240.4 0 1 2300 
+66.191.78.234 0 1 2300 
+174.159.248.218 0 1 2300 
+70.143.33.42 0 1 2300 
+198.144.47.231 0 1 2300 
+170.202.222.1 0 1 2300 
+205.188.116.130 3 3 3650 20090319135733
+208.47.90.81 0 1 2300 
+68.197.18.215 0 1 2300 
+204.253.245.126 0 1 2300 
+70.13.127.122 0 1 2300 
+173.24.168.183 0 1 2300 
+68.205.254.85 0 2 4600 
+96.243.158.199 0 1 2300 
+65.127.24.119 0 1 2300 
+205.152.67.36 0 2 4600 
+205.188.116.200 0 1 12473 
+68.95.152.93 0 1 2300 
+208.38.92.150 0 1 2300 
+67.236.230.37 0 1 2300 
+79.68.132.146 0 1 2300 
+209.131.65.67 3 93 443200 20090323061609
+68.75.163.208 0 1 2300 
+71.76.223.32 0 1 2300 
+74.84.109.52 0 1 2300 
+171.69.106.47 0 1 2300 
+216.195.209.146 0 1 2300 
+24.116.90.69 9 101 862282 20090324075409
+24.61.14.198 0 1 2300 
+24.220.155.3 0 2 4600 
+75.171.145.140 0 3 6900 
+75.90.233.104 0 1 2300 
+205.188.117.7 0 1 12935 
+64.12.117.10 4 4 5542 20090324123417
+65.127.24.162 0 1 2300 
+99.138.181.213 0 1 2300 
+66.82.9.25 4 112 756630 20090328164945
+64.12.116.67 1 1 0 20090324115015
+24.43.17.211 0 1 2300 
+216.41.93.230 0 1 2300 
+67.236.240.34 0 1 2300 
+98.228.11.253 0 1 2300 
+66.191.72.230 0 1 2300 
+24.60.148.149 16 193 1291040 20090331132049
+208.24.125.66 0 2 4600 
+205.188.116.75 2 3 18293 20090319135652
+205.188.117.5 1 1 5597 20090319140033
+64.126.90.7 0 1 2300 
+216.106.204.134 0 1 2300 
+69.234.123.242 0 3 6900 
+202.86.20.137 0 1 2300 
+65.198.139.162 0 1 2300 
+138.162.128.54 0 1 2300 
+64.12.116.139 1 1 0 20090324122913
+63.85.222.130 0 4 9200 
+173.23.103.167 0 1 2300 
+68.238.4.93 0 1 2300 
+71.61.4.122 0 1 2300 
+64.12.117.79 3 3 5829 20090324123310
+205.188.116.205 0 1 4229 
+205.188.117.79 0 1 12861 
+67.188.87.40 0 1 2300 
+70.46.104.74 0 1 2300 
+98.218.68.238 0 1 2300 
+99.3.174.22 0 1 2300 
+65.33.75.145 0 1 2300 
+72.222.146.75 0 3 6900 
+76.23.87.180 0 1 2300 
+96.18.63.120 0 1 0 
+63.237.45.7 0 1 2300 
+64.136.26.225 0 1 2300 
+68.83.146.174 0 1 2300 
+64.12.116.209 0 1 2300 
+81.23.56.48 0 2 4600 
+69.15.239.153 0 1 2300 
+161.231.132.15 0 1 2300 
+65.0.163.150 0 1 2300 
+71.42.37.202 0 1 2300 
+64.12.117.7 2 2 95123 20090324123417
+69.74.238.162 0 1 2300 
+205.188.117.80 0 1 13419 
+72.10.124.29 0 1 2300 
+131.122.63.49 0 1 2300 
+72.187.141.235 0 1 2300 
+207.250.55.10 0 2 4600 
+199.173.224.31 0 1 2300 
+24.196.52.82 0 1 2300 
+68.95.139.122 0 2 4600 
+71.87.58.42 0 1 2300 
+75.215.73.149 0 1 2300 
+81.157.177.129 0 1 2300 
+90.196.1.48 0 1 2300 
+98.165.133.254 0 1 2300 
+205.188.116.209 0 4 10009 
+97.104.131.150 0 1 2300 
+170.135.241.45 0 2 4600 
+205.188.116.20 1 1 4722 20090319135046
+71.31.203.224 6 91 559670 20090324151227
+72.148.71.226 0 1 2300 
+97.172.52.27 0 2 4600 
+74.60.82.64 0 1 2300 
+173.65.21.76 0 1 2300 
+68.38.121.92 1 81 345045 20090308133429
+76.18.34.249 0 1 2300 
+24.88.252.93 0 2 4600 
+205.188.116.8 1 2 712723 20090319134922
+64.122.192.126 0 1 2300 
+24.144.221.18 0 1 2300 
+66.25.55.244 0 1 2300 
+99.6.52.53 0 1 2300 
+72.10.101.109 0 1 2300 
+76.189.9.198 0 1 2300 
+75.80.0.238 0 1 2300 
+205.188.117.16 1 2 453987 20090319134618
+98.198.184.194 0 1 2300 
+206.174.139.64 0 1 2300 
+205.188.117.66 2 2 3999 20090319135733
+76.109.186.196 0 1 2300 
+68.166.85.211 0 1 2300 
+64.147.5.88 0 3 6900 
+76.102.94.103 0 1 2300 
+216.15.57.141 0 1 2300 
+205.188.116.67 1 1 4453 20090319134601
+205.188.117.12 1 1 329590 20090319133617
+71.223.18.57 0 1 2300 
+169.244.70.148 0 1 2300 
+97.101.225.229 0 1 2300 
+66.147.47.157 0 1 2300 
+74.176.50.246 0 1 2300 
+98.30.147.171 0 1 2300 
+205.174.116.9 0 1 2300 
+72.181.153.96 0 1 2300 
+173.23.157.202 10 116 748321 20090319121545
+70.152.219.186 0 5 9200 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20090301 168 1421 8113041 5
+20090302 122 1104 8540751 4
+20090303 580 3536 34497637 8
+20090304 709 3570 37937266 8
+20090305 93 1027 9327723 7
+20090306 31 64 407564 4
+20090307 43 199 2443106 3
+20090308 10 101 622250 3
+20090309 24 310 1679266 6
+20090310 2 176 742238 2
+20090311 20 210 4809700 2
+20090312 24 71 1260532 1
+20090313 47 557 2448555 2
+20090314 199 2952 10310776 5
+20090315 65 1458 3497186 7
+20090316 62 775 5353032 7
+20090317 111 782 6201972 6
+20090318 261 1650 13725459 9
+20090319 161 879 10439567 30
+20090320 96 632 6022616 7
+20090321 36 95 1510442 3
+20090322 17 109 718901 2
+20090323 67 476 11441994 5
+20090324 65 556 3760653 18
+20090325 23 145 2233517 4
+20090326 320 1762 13255924 6
+20090327 363 2622 15997619 9
+20090328 225 3796 13614957 8
+20090329 168 1229 6753762 8
+20090330 360 4323 20716248 11
+20090331 186 2711 16113180 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 22
+5mn-15mn 25
+30s-2mn 30
+15mn-30mn 22
+0s-30s 62
+2mn-5mn 19
+30mn-1h 28
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 89
+/_vti_bin/_vti_aut/author.exe 2217 31068087 0 15
+/ 370 4214501 144 25
+/brokermap.html 100 1249449 0 1
+/sellsheets.html 90 1350043 3 8
+/contactus.html 80 1221063 2 8
+/marketingsupplies.html 79 902855 1 2
+/categorydata.html 78 825064 2 5
+/_vti_bin/shtml.exe/_vti_rpc 67 16080 0 0
+/_vti_inf.html 67 117518 23 0
+/productspecifications.html 67 604058 1 2
+/CreditApplication.pdf 22 629540 0 0
+/MarketingLRodsBlackLow.pdf 11 1786096 0 2
+/MediaTVG4BiteStoryboard.pdf 7 1245278 0 2
+/Integrity-LRodsNutritionals.pdf 19 1615735 1 3
+/shelftalkersandsignage.html 38 519650 1 4
+/dealandslottingform.html 51 623995 2 4
+/MediaPressPHFRelease030609.pdf 3 175564 0 0
+/FormulaWhyMeat.pdf 14 160230 0 1
+/pointofsalesupplies.html 14 417984 0 0
+/FormulaAboutAmino.pdf 7 81785 0 2
+/mediasupport.html 64 761967 0 6
+/slickslogos.html 52 636622 1 1
+/DataIRIKeyTakeAway.pdf 7 988915 0 1
+/CaffeinatedSnacks.pdf 8 186993 0 0
+/deductionpolicies.html 49 692549 2 2
+/cgi-bin/awstats.pl 4 94363 1 1
+/MarketingPHFBW.pdf 3 939316 0 0
+/thankyou.html 6 42898 0 0
+/SlickLRodBoxFront.pdf 5 5183624 0 0
+/MediaPressPRWebRelease030609.pdf 8 374890 0 0
+/phfforms.html 3 26263 0 0
+/FormulaBVitamins.pdf 7 83360 0 0
+/PHFPriceList.pdf 50 6291592 1 11
+/FormulaLRodsSynergy.pdf 5 594800 0 1
+/MarketingMeatStixLow.pdf 9 554764 0 0
+/suggestionbox.html 14 180085 0 2
+/DataPHFNACSMagazine.pdf 6 102351 0 1
+/DataNielsenSnack.pdf 6 141780 0 1
+/creditapplications.html 49 728486 0 2
+/Integrity-Attributes.pdf 16 3171116 1 1
+/DeductionRequestForm.pdf 13 5051531 1 3
+/fabqs.html 46 400387 2 6
+/DataNielsenNewItems.pdf 6 777863 0 1
+/promorequest.html 18 304676 1 1
+/PHFSlottingandDealSheetForm.xls 34 7264095 2 6
+/DataPHFLRRetailPPT.pdf 2 273048 0 1
+/DataIRIMintelMeatSnacks.pdf 6 755640 0 0
+/MarketingPHFBlackLow.pdf 7 8264930 0 0
+/MarketingPHFWhiteLow.pdf 8 832864 0 0
+/purchaseorders.html 17 356800 0 0
+/insurancecertificate.html 42 738826 0 6
+/SlickEnergyBoost.pdf 6 1566750 0 1
+/formulaanalysis.html 67 768836 2 10
+/MediaPressYahooPR030609.pdf 3 74493 0 0
+/LRDisplay84csPalletization.pdf 23 377872 0 2
+/MediaTVG4TVDemographic.pdf 5 743378 0 2
+/productintegrity.html 32 227357 1 2
+/samplerequests.html 30 513091 2 4
+/sponsoredevents.html 12 65963 0 0
+/CheckRequest.pdf 4 917601 0 1
+/buttonmasterpage.html 3 71910 0 0
+/PromotionRequest.pdf 3 1291211 0 0
+/premiums.html 48 767859 1 4
+/DataIRIBeefStickPackaging.pdf 6 467496 0 0
+/sitemap.html 11 142690 1 5
+/MarketingPowerBoostLow.pdf 10 2167319 0 0
+/FormulaAminosSpecial.pdf 4 67049 0 0
+/FormulaWhereIsEnergy.pdf 8 101462 0 0
+/MediaPrintMagazineAdTickler.pdf 4 846745 0 0
+/FormulaGuarana.pdf 5 105232 0 0
+/CaffeinatedDrinks.pdf 7 418206 0 0
+/pricelist.html 67 541629 1 1
+/PHFItemCodeLR84ct.pdf 25 1972396 0 1
+/salestracker.html 18 120087 0 1
+/SponsoredEvents.pdf 18 3410892 0 5
+/DataPHFCompetitiveAnalysis.pdf 8 766678 0 0
+/MarketingLRodsWhiteLow.pdf 7 1244548 0 0
+/FormulaB12Vitamins.pdf 9 106320 0 1
+/SellSheetComplete.pdf 14 3429140 2 8
+/MarketingLRodLabel.pdf 8 10956239 0 1
+/caffeinatedcomps.html 46 728253 0 3
+/aboutus.html 65 757125 2 6
+/BrokerMap.pdf 40 4019482 0 5
+/currentpromotions.html 15 161411 1 1
+/MarketingHighVoltageLow.pdf 9 1394415 0 0
+/PurchaseOrderForm.xls 14 1285120 1 2
+/DataIRI-PHFMeatSnack.pdf 6 774238 2 2
+/SpecLRDisplayCsLabel.pdf 17 2194162 0 2
+/MarketingMinotaurWhiteLow.pdf 10 2938376 0 0
+END_SIDER

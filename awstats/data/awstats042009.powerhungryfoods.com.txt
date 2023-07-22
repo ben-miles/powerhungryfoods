@@ -1,0 +1,1436 @@
+AWSTATS DATA FILE 6.4 (build 1.812)
+# If you remove this file, all statistics for date 2009-04 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2546                
+POS_VISITOR 22124               
+POS_DAY 43755               
+POS_DOMAIN 3504                
+POS_LOGIN 3739                
+POS_ROBOT 3935                
+POS_WORMS 4349                
+POS_EMAILSENDER 4480                
+POS_EMAILRECEIVER 4623                
+POS_SESSION 44678               
+POS_SIDER 44891               
+POS_FILETYPES 4758                
+POS_OS 5069                
+POS_BROWSER 5227                
+POS_SCREENSIZE 5663                
+POS_UNKNOWNREFERER 5737                
+POS_UNKNOWNREFERERBROWSER 7494                
+POS_ORIGIN 8353                
+POS_SEREFERRALS 8507                
+POS_PAGEREFS 8732                
+POS_SEARCHWORDS 16821               
+POS_KEYWORDS 18068               
+POS_MISC 2208                
+POS_ERRORS 18907               
+POS_CLUSTER 3595                
+POS_SIDER_404 19048               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20090501002255 159 42579 41224276849
+FirstTime 20090401040758
+LastTime 20090430222956
+LastUpdate 20090502035004 159 0 158 0 0
+TotalVisits 623                 
+TotalUnique 405                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 601                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 204 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 66 183 2449297 86 105 783283
+1 22 331 3781399 70 102 1697038
+2 46 695 12376514 102 135 1519239
+3 41 432 4503169 58 97 915755
+4 278 1795 23296212 77 111 632828
+5 351 1988 35856464 52 93 6934580
+6 684 4567 103569134 81 118 3437309
+7 192 2116 31710759 63 85 22932156
+8 220 2777 67799028 65 113 6362609
+9 292 3292 51067288 115 143 13625420
+10 188 1849 37219224 115 153 17805961
+11 218 2822 63279737 69 125 15143803
+12 140 1403 16459316 57 96 4169151
+13 195 3012 59343575 94 144 9471097
+14 221 2264 54937740 76 100 4097764
+15 91 974 18371280 70 97 1072310
+16 115 1831 27882100 68 90 16648871
+17 85 1045 19390273 74 107 1211362
+18 72 1263 15004135 86 137 7610044
+19 141 1221 15364953 147 197 6111011
+20 216 1143 16967230 166 197 19268251
+21 80 641 6907883 80 107 2240914
+22 26 336 3534612 56 86 1201948
+23 93 195 2354766 85 102 898653
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 4073 38175 693426088
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+bbretail 978 978 23816421 20090428063720
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+googlebot 1234 23031144 20090430235925 0
+slurp 395 10108670 20090430234254 0
+crawl 249 5811942 20090429075806 0
+msnbot 36 167114 20090430221242 0
+jeeves 18 847549 20090418215928 0
+robot 7 24775 20090429134828 0
+netcraft 2 46720 20090408174455 0
+ia_archiver 1 21067 20090409210156 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+mp3 70 60236660 0 0
+png 43 15143 0 0
+pdf 61 2661371 0 0
+htm 1945 16581989 0 0
+pl 4 107163 0 0
+tmp 1 1107 0 0
+swf 2516 270476796 0 0
+html 864 6716675 0 0
+jpg 2198 32535332 0 0
+Unknown 39 9360 0 0
+exe 978 23816421 0 0
+gif 29345 138638841 0 0
+wav 111 141629230 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+winlong 7136
+winxp 23632
+winnt 10
+win2000 470
+win98 64
+linux 83
+macosx 2554
+winme 1
+wince 65
+win2003 560
+Unknown 3600
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 26
+msie6.0 4432
+firefox3.0.7 122
+firefox2.0.0.20 87
+up\. 1
+firefox3.0.9 2125
+opera 131
+firefox3.0 91
+nsplayer 4
+firefox2.0.0.6 62
+aweb 27
+firefox2.0.0.5 66
+firefox2.0.0.7 57
+firefox2.0.0.13 63
+msie8.0 605
+firefox1.0.7 70
+konqueror 1
+mozilla 2339
+firefox1.0 7
+msie7.0 15790
+windows\-media\-player 3
+msie5.0 10
+Unknown 1291
+firefox3.0.10 366
+firefox3.0.8 8118
+safari 2250
+firefox1.5.0.7 57
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 26
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20090425160707
+BlackBerry8310/4.2.2_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_UP.Link/6.3.1.20.06.3.1.20.0_Novarra-Vision/7.3 20090402221018
+AWeber_Communications_Inc._Link_Validator_-_For_info,_visit_http://www.aweber.com/faq/questions/526/ 20090430082417
+contype 20090430144418
+Windows-Media-Player/10.00.00.3646 20090413113929
+- 20090415055055
+QuickTime/7.5.5_(qtver=7.5.5;cpu=IA32;os=Mac_10.5.6) 20090406083810
+BlackBerry8330/4.3.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20090412163130
+AWeber_Communications_Inc._Link_Validator_-_For_info,_visithttp://www.aweber.com/faq/questions/526/ 20090415125603
+Windows-Media-Player/10.00.00.3997 20090409135554
+Mozilla/4.0_(compatible;_BorderManager_3.0) 20090414102147
+BlackBerry8330m/4.5.0.127_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/294 20090424102056
+MSFrontPage/6.0 20090428063720
+NSPlayer/9.0.0.3267_WMFSDK/9.0 20090423143643
+MLBot_(www.metadatalabs.com/mlbot) 20090430095359
+NSPlayer/10.0.0.4362_WMFSDK/10.0 20090421174616
+QuickTime/7.6_(qtver=7.6;cpu=IA32;os=Mac_10.5.6) 20090401171221
+NSPlayer/10.0.0.3703_WMFSDK/10.0 20090428133706
+QuickTime/7.5.5_(qtver=7.5.5;cpu=PPC;os=Mac_10.4.9) 20090428142706
+BlackBerry8330/4.3.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/104 20090414162806
+Mozilla/4.0_(compatible;) 20090423181716
+BlackBerry8330/4.5.0.77_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20090422114038
+HttpComponents/1.1 20090413121117
+Mozilla/4.0_(compatible;_MS_FrontPage_6.0) 20090428063646
+NSPlayer/10.0.0.3997_WMFSDK/10.0 20090409093506
+SkyGrid/1.0_(_http://skygrid.com/partners) 20090424123345
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 13
+MSFrontPage/6.0 20090428063720
+contype 20090430144418
+MLBot_(www.metadatalabs.com/mlbot) 20090430095359
+QuickTime/7.5.5_(qtver=7.5.5;cpu=PPC;os=Mac_10.4.9) 20090428142706
+QuickTime/7.6_(qtver=7.6;cpu=IA32;os=Mac_10.5.6) 20090401171221
+- 20090415055055
+BlackBerry8330/4.3.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/104 20090414162806
+BlackBerry8330/4.3.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20090412163130
+QuickTime/7.5.5_(qtver=7.5.5;cpu=IA32;os=Mac_10.5.6) 20090406083810
+BlackBerry8330/4.5.0.77_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20090422114038
+HttpComponents/1.1 20090413121117
+SkyGrid/1.0_(_http://skygrid.com/partners) 20090424123345
+BlackBerry8330m/4.5.0.127_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/294 20090424102056
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2024 4437
+From1 27 27
+From2 171 184
+From3 533 3511
+From4 1318 30016
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 7
+google 89 92
+search 5 5
+aol 2 2
+google_image 39 49
+ask 1 1
+msn 20 20
+yahoo 15 15
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 161
+http://nagafighter.com/index.php 43 43
+http://nrgstix.com/rodreviews.htm 21 106
+http://www.nrgstix.com 20 392
+http://www.nrgstick.com 16 16
+http://www.steerrods.com 16 16
+http://www.energybeefstick.com 16 16
+http://www.nrgseed.com 16 16
+http://nrgstix.com 13 1026
+http://www.nrgstix.com/rodreviews.htm 13 27
+http://nagafighter.com/nagablue/index.php 13 13
+http://www.steerrods.com/buyenergybeefsticks.htm 2 2
+http://www.nrgseed.com/rodreviewsbyjox.htm 3 3
+http://nrgstix.com/reviewerbearson.htm 0 1
+http://www.nrgseed.com/rodreviewsbymateaters.htm 1 1
+http://bl141w.blu141.mail.live.com/mail/InboxLight.aspx 1 1
+http://nrgstick.com/reviewerwalsh.htm 0 1
+http://us.mc521.mail.yahoo.com/mc/showMessage 1 1
+http://us.mc461.mail.yahoo.com/mc/welcome 1 1
+http://www.nrgseed.com/buyenergybeefsticks.htm 2 2
+http://www.nrgstix.com/rodreviewsbymateaters.htm 2 6
+http://energybeefstick.com/madskills.htm 4 6
+http://us.mc322.mail.yahoo.com/mc/welcome 1 1
+http://co118w.col118.mail.live.com/mail/InboxLight.aspx 1 1
+http://www.steerrods.com/rodreviewsbymateaters.htm 2 2
+http://www.nrgseed.com/faqs.htm 1 1
+http://nrgstix.com/madskills.htm 2 6
+http://focaldepth.com/randomlinks/nrgstix.com 1 1
+http://nrgstix.com/aboutus.htm 1 3
+http://devaw.comConnection:%20close 2 2
+http://sn101w.snt101.mail.live.com/mail/InboxLight.aspx 1 1
+http://www.cooliris.com/start/search/googleImagesSearchFeed.php 0 1
+http://www.energybeefstick.com/buyenergybeefsticks.htm 2 2
+http://energybeefstick.com 1 187
+http://www.steerrods.com/rodreviews.htm 7 7
+http://nrgstix.com/readall.htm 1 8
+http://www.nrgstix.com/reviewermillar.htm 0 1
+http://www.nrgstix.com/faqs.htm 2 9
+http://www.nrgstix.com/index.html 1 62
+http://www.steerrods.com/rodreviewsbymedix.htm 4 4
+http://www.phfmarketing.powerhungryfoods.com/index.html 2 2
+http://us.mc01g.mail.yahoo.com/mc/showMessage 1 1
+http://nrgstix.com/meatsponsors.htm 4 40
+http://www.phfmarketing.powerhungryfoods.com/contactus.html 7 7
+http://getapprovedcharleston.com/index.php 1 2
+http://www.nrgseed.com/rodreviewsbyletusprey.htm 3 3
+http://www.sitedossier.com/site/nrgstix.com 1 1
+http://nrgstix.com/rodreviewsbynoflatearth.htm 0 10
+http://www.nrgstix.com/rodreviewsbyjox.htm 3 9
+http://www.nrgstix.com/meatsponsors.htm 2 26
+http://www.nrgseed.com/rodreviewsbynoflatearth.htm 4 4
+http://www.phfmarketing.powerhungryfoods.com/categorydata.html 3 3
+http://energybeefstick.com/meatsponsors.htm 2 14
+http://nrgstix.com/rodreviewsbyletusprey.htm 3 21
+http://www.ccrsnacks.com/Qstore/Qstore.cgi 11 11
+http://www.steerrods.com/rodreviewsbyletusprey.htm 4 4
+http://energybeefstick.com/meatminotaur.htm 4 6
+http://www.energybeefstick.com/rodreviewsbyjox.htm 3 3
+http://www.steerrods.com/rodreviewsbylimelighters.htm 6 6
+http://www.sitedossier.com/site/nrgseed.com 1 1
+http://www.phfmarketing.powerhungryfoods.com/caffeinatedcomps.html 1 1
+http://www2.ufcfanexpo.com/app/homepage.cfm 3 3
+http://efinancebanks.com/index.php 1 2
+http://us.mg1.mail.yahoo.com/dc/launch 1 1
+http://www.energybeefstick.com/faqs.htm 1 1
+http://lenuw.comConnection:%20close 2 2
+http://www.nrgstix.com/buygear.htm 1 9
+http://www.nrgstick.com/rodreviewsbynoflatearth.htm 4 4
+http://www.phfmarketing.powerhungryfoods.com/sponsoredevents.html 1 1
+http://www.phfmarketing.powerhungryfoods.com 3 3
+http://lightningrodsbeef.com 1 421
+http://www.nrgstix.com/meatminotaur.htm 1 3
+http://www.nrgseed.com/rodreviewsbymedix.htm 4 4
+http://www.nrgstick.com/faqs.htm 1 1
+http://energybeefstick.com/mailinglist.htm 4 6
+http://nrgseed.com/reviewerbuthker.htm 0 1
+http://nrgstix.com/rodreviewsbymedix.htm 1 6
+http://nrgseed.com/reviewerdinkins.htm 0 1
+http://us.mc804.mail.yahoo.com/mc/showMessage 1 1
+http://www.phfmarketing.powerhungryfoods.com/sellsheets.html 2 2
+http://us.mc585.mail.yahoo.com/mc/showMessage 1 1
+http://www.nrgstick.com/rodreviews.htm 7 7
+http://nrgstix.com/nutritionalinformation.htm 5 85
+http://www.nrgstick.com/rodreviewsbymedix.htm 4 4
+http://spellsbook.com/randomlinks/nrgstick.com 1 1
+http://energybeefstick.com/buyenergybeefsticks.htm 5 9
+http://www.nrgstick.com/rodreviewsbymateaters.htm 2 2
+http://www.nrgstix.com/nutritionalinformation.htm 1 7
+http://nrgseed.com/reviewerlarrymazza.htm 0 1
+http://sz0136.ev.mail.comcast.net/zimbra/mail 1 1
+http://www.nrgstix.com/sos.htm 1 4
+http://energybeefstick.com/buygear.htm 3 11
+http://co102w.col102.mail.live.com/mail/InboxLight.aspx 1 1
+http://www.nrgstix.com/aboutus.htm 3 7
+http://nrgstix.com/buygear.htm 5 190
+http://nrgstick.com/reviewerlongmirefeature.htm 0 1
+http://nrgstix.com/locatedistributor.htm 1 1
+http://www.nrgseed.com/rodreviews.htm 7 7
+http://energybeefstick.com/contactus.htm 2 4
+http://www.nrgstix.com/rodreviewsbymedix.htm 4 9
+http://lightningrodsbeef.com/rodreviews.htm 1 24
+http://www.newsguide.us/technology/games/Power-Hungry-Foods-LLC-Launches-The-World-s-First-Energy-Beef-Stick/ 1 1
+http://energybeefstick.com/nutritionalinformation.htm 1 7
+http://nrgstick.com/reviewerblyth.htm 0 1
+http://www.nrgstick.com/rodreviewsbylimelighters.htm 6 6
+http://us.mc01g.mail.yahoo.com/mc/welcome 4 4
+http://energybeefstick.com/readall.htm 1 8
+http://www.nrgstix.com/sitemap.htm 1 2
+http://lightningrodsbeef.com/rodreviewsbyletusprey.htm 1 34
+http://www.phfmarketing.powerhungryfoods.com/productpictures.html 1 1
+http://www.energybeefstick.com/rodreviewsbymateaters.htm 2 2
+http://bl136w.blu136.mail.live.com/mail/InboxLight.aspx 1 1
+http://www.energybeefstick.com/rodreviews.htm 7 7
+http://www.nrgstix.com/rodreviewsbyletusprey.htm 5 10
+http://nrgstix.com/reviewerlongmire.htm 0 1
+http://www.phfmarketing.powerhungryfoods.com/premiums.html 1 1
+http://www.energybeefstick.com/rodreviewsbylimelighters.htm 6 6
+http://nrgstix.com/buyenergybeefsticks.htm 9 25
+http://www.sitedossier.com/site/nrgstick.com 1 1
+http://nrgstix.com/faqs.htm 1 30
+http://www.answers.com/what%20were%20some%20of%20the%20minotaurs%20powers%20or%20skills 1 1
+http://www.nrgseed.com/rodreviewsbylimelighters.htm 6 6
+http://nrgstix.com/sos.htm 2 8
+http://us.mg3.mail.yahoo.com/dc/launch 1 1
+http://nrgstix.com/reviewerbearson2.htm 0 1
+http://www.steerrods.com/faqs.htm 1 1
+http://nrgstix.com/sitemap.htm 0 1
+http://www.nrgstix.com/rodreviewsbynoflatearth.htm 5 10
+http://energybeefstick.com/rodreviews.htm 2 16
+http://webmail.att.net/wmc/en-US/v/wm/49F48D89000E396D00001E2C22230706129B0A02D2089B9A019C04040A0DBF9B0E0B0A9B019A9E 1 1
+http://www.nrgstick.com/buyenergybeefsticks.htm 2 2
+http://www.metroblink.com 7 7
+http://www.nrgstix.com/rodreviewsbylimelighters.htm 6 13
+http://nrgstix.com/rodreviewsbyjox.htm 0 9
+http://nrgstix.com/meatminotaur.htm 7 111
+http://www.nagafighter.com/index.php 12 12
+http://www.nrgstick.com/rodreviewsbyjox.htm 3 3
+http://nrgstix.com/contactus.htm 0 4
+http://nrgstix.com/rodreviewsbymateaters.htm 0 7
+http://nrgstix.com/reviewerlongmirefeature.htm 0 1
+http://www.phfmarketing.powerhungryfoods.com/formulaanalysis.html 2 2
+http://www.steerrods.com/rodreviewsbyjox.htm 3 3
+http://www.nrgstix.com/buyenergybeefsticks.htm 4 12
+http://www.energybeefstick.com/rodreviewsbyletusprey.htm 4 4
+http://www.energybeefstick.com/rodreviewsbymedix.htm 4 4
+http://nrgstick.com/reviewerlongmire.htm 0 1
+http://www.steerrods.com/rodreviewsbynoflatearth.htm 4 4
+http://www.foodandbeverage-network.com/cgi-php/redirframeset.php 1 1
+http://www.prweb.com/releases/2009/03/prweb2189224.htm 1 1
+http://www.nrgstix.com/madskills.htm 1 3
+http://www.phfmarketing.powerhungryfoods.com/aboutus.html 1 1
+http://nrgstix.com/reviewerkellyann.htm 0 1
+http://lightningrodsbeef.com/reviewerbearsonhunt.htm 0 1
+http://focaldepth.com/randomlinks/nrgseed.com 1 1
+http://webmail.skatedaily.net/src/read_body.php 1 1
+http://nrgstix.com/index.html 2 9
+http://nrgseed.com/reviewerduff.htm 0 1
+http://74.125.93.104/search 1 48
+http://www.nrgstick.com/rodreviewsbyletusprey.htm 4 4
+http://www.nrgstix.com/readall.htm 2 8
+http://nrgstix.com/rodreviewsbylimelighters.htm 1 15
+http://www.energybeefstick.com/rodreviewsbynoflatearth.htm 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 49
+power+hungry+foods 43
+lightning+rods 7
+nrgstix 6
+hungry+foods 6
+www.powerhungryfoods.com 4
+kathy+buthker 4
+www.nrgstix.com 3
+synergy+beef+stick 3
+beef+stick 3
+powerhungryfoods.com 2
+nrgstix.com 1
+powerhungryfoids 1
+good+rods+reviews 1
+hungryfoods 1
+beef+sticks+reviews 1
+joe+cuff+lightning+rods 1
+powerhungryfoods%2ecom 1
+lightining+rods 1
+minotaur+taste+the+beast 2
+lightning+stick+reviews+baseball 1
+lightning+rods+beef 1
+888-674-7849 1
+nrgseed.com%2freviewerlarrymazza.htm 1
+reviews+of+lightening+rods 1
+wwwpowerhungryfoods.com 2
+lightning+rod+energy 1
+food+for+the+minotaur 1
+hungry+power+sticks 1
+energy+beef+sticks 1
+beef+stick+rod+review 2
+buy+beef+sticks+online 1
+power+hungry+foods+llc+vp+of+marketing 1
+minotars+favorite+food 1
+kickboxer+kipp+kollar 1
+powerhungryfoods 2
+high+voltage+gear 1
+lightning+rods+to+power 1
+where+to+get+beef+sticks+in+pennsylva 1
+minotaur 1
+jason+longmire 1
+power+foods 1
+beef+stick+rod 1
+power+hungrty+foods 1
+lighhtning+logos 1
+utritional+information 1
+chris+duff+pro+surfing 1
+power+from+lightning+rods 1
+lightening+rods 1
+what+are+the+powers+minotaur 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 73
+foods 52
+hungry 51
+power 49
+rods 15
+beef 14
+lightning 13
+stick 10
+nrgstix 6
+sticks 5
+minotaur 5
+nrgstix.com 1
+hungryfoods 1
+powerhungryfoids 1
+powerhungryfoods.com 2
+buy 1
+powerhungryfoods%2ecom 1
+beast 2
+rod 4
+888-674-7849 1
+nrgseed.com%2freviewerlarrymazza.htm 1
+what 1
+wwwpowerhungryfoods.com 2
+reviews 4
+www.nrgstix.com 3
+voltage 1
+buthker 4
+marketing 1
+kipp 1
+energy 2
+powerhungryfoods 2
+taste 2
+of 2
+surfing 1
+powers 1
+to 2
+good 1
+from 1
+jason 1
+synergy 3
+where 1
+online 1
+utritional 1
+food 2
+chris 1
+minotars 1
+lighhtning 1
+lightining 1
+the 4
+review 2
+cuff 1
+logos 1
+in 1
+llc 1
+kathy 4
+for 1
+joe 1
+gear 1
+favorite 1
+hungrty 1
+pro 1
+baseball 1
+are 1
+high 1
+www.powerhungryfoods.com 4
+get 1
+lightening 2
+kollar 1
+longmire 1
+pennsylva 1
+information 1
+vp 1
+duff 1
+kickboxer 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+401 39 15951
+403 11 2438
+302 1 5
+206 163 125520198
+404 684 193784
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 100
+/DinkinsThumb.jpg 1 -
+/BevansLarge2009.jpg 1 -
+/Border-PHF-Silver-447x25.jpg 1 -
+/robots.txt 401 -
+/JoeCuffThumb.gif 2 -
+/ReviewTitle-Jox.gif 1 -
+/DustyBuddThumb.gif 1 -
+/BuyComputer150x154.gif 1 -
+/BlythThumb.jpg 1 -
+/reviewerlarrymazza.htm 6 -
+/BearsonThumb.jpg 1 -
+/SponsorRealityLogo150x61.gif 1 -
+/Sponsor-Budds-150x125.gif 1 -
+/PHFLogo100x34White.gif 1 -
+/DawnThumb2009.jpg 1 -
+/DustyBuddLarge.jpg 2 -
+/Flash%20Home%20Text%20Top%2009.swf 6 -
+/BrettSFAQs02.jpg 1 -
+/PRWebRelease030609.pdf 8 -
+/CortinaLarge2009.jpg 1 -
+/ShirtBiteBlack.jpg 1 -
+/G-5HoursEnergy85x85.gif 1 -
+/CortinaThumb.jpg 1 -
+/ButhkerThumb.jpg 1 -
+/ReviewTitle-Lime2.gif 1 -
+/tmTopEnergyBoost.gif 2 -
+/GuaranaGinseng2.gif 1 -
+/Sponsor-Logo-Sahvideo150x79.gif 1 -
+/login/editor/pictureedit.asp 2 -
+/KellyAnnLarge2009.jpg 1 http://images.google.com/images
+/5HoursEnergy85x85.gif 1 -
+/GallerySWF071208.swf 3 -
+/noexist_5208ca947f7811c5.html 4 -
+/tmLR154x80.gif 1 -
+/A-SpotLight04.gif 1 -
+/YahooPR030609Low.pdf 9 -
+/G-MeatStixGoneWild.gif 1 -
+/SOS-Azan-Shriners07.gif 1 -
+/no-text-337534502886079639 3 -
+/GallerySWF082708.swf 3 -
+/reviewerjoecuff.htm 4 -
+/ReviewBannerLime.gif 2 -
+/BuyTruck225x114.gif 1 -
+/ReviewerSavageThumb.gif 1 -
+/LongmireThumb.jpg 2 -
+/ReviewBannerFeatured.gif 1 -
+/ReviewTM-NoFlat01.gif 1 -
+/Memo%20Rody%20Hawkins,%20PhD%20Low.pdf 2 -
+/ReadAllAboutRody.gif 1 -
+/JoeCuffLarge.jpg 3 -
+/BearsonThumbHuntD2.jpg 1 -
+/SponsorBlueDucks150x125.gif 3 http://images.google.es/imgres
+/ReviewTitle-No-Flat.gif 1 -
+/WalshLarge2009.jpg 2 -
+/G-HeaderPHFSilver.jpg 1 -
+/reviewerbearson.htm 5 -
+/ReviewTM-Mat01.gif 1 -
+/DixonThumb2.jpg 1 -
+/BevansThumb.jpg 3 -
+/A-DungeonGreekWall.gif 1 -
+/AnimateDungeonGreekWallD.gif 1 -
+/MillarThumb.jpg 1 -
+/DuffThumb.jpg 1 -
+/Reality%20Fighting 4 -
+/Border-PHF-Silver-459x27.jpg 85 http://www.powerhungryfoods.com/rodreviewsbyjox.htm
+/KellyAnnThumb.jpg 2 http://images.google.com/images
+/SponsorCornerTattoo150x125.gif 1 -
+/SponsorWWA150x53.gif 1 -
+/ReviewTM-Jox.gif 1 -
+/KollarThumb.jpg 4 -
+/TV150x124B.gif 1 -
+/WalshThumb.jpg 1 -
+/BlythLarge2009.jpg 1 -
+/WaltersThumb.jpg 1 -
+/A-SpotLight02.gif 1 -
+/SponsorLogoRDI150x72.gif 1 -
+/BiteSticker01.jpg 1 -
+/G-HeaderInnovator.gif 1 -
+/PressOurRecipeForLongNP.pdf 13 -
+/PHFPressRelease030609.pdf 8 -
+/MadSkillsTM.gif 3 -
+/SponsorNAGA150x65.gif 1 -
+/reviewerbearson2.htm 1 -
+/DinkinsLarge2009.jpg 1 -
+/ShirtBiteGray.jpg 1 -
+/LostGingrasThumb.jpg 1 -
+/MazzaLarge2009.jpg 2 -
+/HawkinsThumb.jpg 1 -
+/SponsorGlobal02.gif 1 -
+/A-SpotLight01.gif 1 -
+/Sponsor-ECSHOF-150x125.gif 1 -
+/A-SpotLight03.gif 1 -
+/MeatStixGoneWild07.gif 1 -
+/LongmireLarge2009.jpg 1 -
+/MeatStixGoneWild06.gif 1 -
+/homepage.htm 15 -
+/SponsorCapeSurf150x82.gif 1 -
+/reviewerdustybudd.htm 2 -
+/PowerBoost175x175.gif 2 -
+/MazzaThumb.jpg 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 601
+70.89.59.42 1368 8591 174116572 20090428063720
+65.222.217.210 191 191 1166357 20090407212056
+38.100.41.113 148 148 1667520 20090415103236
+97.104.137.170 110 720 11228752 20090424200432
+216.158.1.198 91 91 2005861 20090421003604
+64.83.224.129 53 410 6335802 20090427071329
+88.168.97.174 51 51 557925 20090411044020
+38.100.41.102 50 50 557065 20090414202902
+38.105.83.11 50 50 557036 20090409235540
+38.105.83.12 50 50 557100 20090429122735
+67.236.139.133 2 65 382649 20090406200215
+205.188.116.73 1 11 35700 20090410161513
+64.12.117.19 0 1 10472 
+205.188.116.141 0 2 15458 
+205.188.116.204 0 9 160352 
+205.188.116.5 0 7 19194 
+158.111.5.34 1 38 275409 20090402072932
+64.53.4.254 1 2 16767 20090401071913
+208.80.195.33 2 2 46716 20090428125215
+68.84.188.243 1 68 322749 20090430214128
+161.53.179.232 0 6 102575 
+206.53.153.158 1 27 181686 20090422114037
+69.205.35.73 0 2 41483 
+70.152.199.116 4 87 1077702 20090406123548
+220.255.7.234 0 1 10774 
+199.219.138.254 1 62 807459 20090403135722
+64.12.116.136 0 2 94589 
+72.183.219.125 1 62 807459 20090415133952
+75.63.60.78 16 116 7632677 20090427085914
+66.188.162.98 17 305 3001870 20090418182010
+170.135.241.46 8 8 67053 20090423181716
+205.188.116.70 0 6 14250 
+70.7.144.247 1 63 809743 20090423120451
+205.188.117.69 3 5 94661 20090430114221
+207.200.116.72 0 2 5657 
+82.110.225.226 4 63 5165870 20090414102147
+64.12.116.14 0 1 8178 
+68.80.136.95 13 125 1621628 20090413041952
+194.242.148.70 1 63 828952 20090427064918
+70.169.205.125 3 69 863508 20090420160139
+81.169.185.32 1 24 118140 20090408234442
+64.12.117.20 0 2 21809 
+8.12.144.42 0 4 39326 
+68.46.96.23 1 62 807459 20090410113751
+69.142.31.56 1 62 807459 20090409200126
+205.188.117.11 0 2 13349 
+72.228.77.18 22 170 3481353 20090415150802
+83.100.168.35 2 21 179908 20090421054454
+216.166.229.4 11 114 2781559 20090409140021
+67.79.197.22 15 85 1090758 20090403115819
+220.255.7.158 0 1 3032 
+207.200.116.68 0 3 112847 
+97.82.239.187 1 62 807459 20090414012400
+64.12.116.71 0 9 69628 
+216.168.94.170 3 72 944574 20090409085236
+164.82.146.3 4 68 2348036 20090429112857
+85.31.219.45 1 1 60941 20090413121117
+64.83.225.37 1 46 756905 20090405162112
+64.72.67.162 23 154 11054126 20090415141145
+24.83.109.235 1 63 809759 20090416065039
+146.115.94.140 1 61 286029 20090411221302
+67.52.59.74 11 121 4677421 20090409085944
+75.21.106.119 2 67 849431 20090415134635
+64.12.116.203 2 5 4845483 20090402134744
+204.122.253.240 2 5 4797929 20090407094126
+166.216.128.6 0 1 2906 
+173.67.15.6 2 22 793361 20090421174616
+205.188.116.197 0 14 66931 
+208.80.195.34 2 2 46693 20090429171202
+64.12.116.199 0 4 13456 
+66.67.132.242 1 63 809743 20090425054717
+205.188.116.136 0 3 125246 
+205.188.117.78 0 15 97600 
+72.94.249.34 4 4 93432 20090416065522
+205.188.116.13 0 1 17127 
+68.27.168.84 2 67 849431 20090414181338
+70.8.179.58 2 3 69111 20090411230850
+205.188.116.7 1 20 84918 20090402065859
+64.12.116.70 0 4 11400 
+64.12.112.6 0 1 2828 
+64.12.117.69 0 4 10444 
+65.210.123.241 1 1 888 20090407184544
+207.200.116.137 0 4 55209 
+75.220.230.138 1 30 598997 20090415194351
+72.0.105.35 1 13 69496 20090418180055
+71.37.94.84 3 83 1042170 20090428073406
+170.185.71.25 1 9 186411 20090416081604
+8.12.144.58 1 1 23360 20090402221018
+64.12.117.18 0 4 32899 
+205.188.117.14 0 3 16850 
+65.114.186.10 5 131 883026 20090422115707
+205.188.116.207 0 4 60262 
+64.12.116.137 0 1 1176448 
+70.138.29.169 4 88 1100826 20090401081044
+205.188.117.20 0 5 41320 
+205.188.116.201 0 7 22664 
+204.43.192.70 4 60 14594890 20090413113933
+205.188.116.144 0 1 12569 
+64.12.116.9 1 9 65620 20090402135302
+201.34.113.10 1 1 22008 20090422164147
+220.255.7.236 0 1 2982 
+99.151.197.138 3 85 566820 20090412162856
+207.200.116.5 0 3 23769 
+220.255.7.161 0 1 3673 
+173.74.223.136 9 116 1417065 20090409160115
+63.85.29.12 32 163 3368643 20090419173504
+208.80.195.51 1 1 23335 20090417124526
+67.84.205.135 1 37 728841 20090401130510
+64.12.117.9 0 6 40204 
+64.12.116.210 3 12 101901 20090402140232
+206.53.157.200 7 72 807334 20090412163129
+71.42.151.123 10 154 2035466 20090408145820
+173.35.250.28 2 66 839360 20090428100624
+66.226.53.34 2 66 839903 20090415131539
+65.210.123.242 1 1 23360 20090407190057
+220.255.7.188 0 1 3752 
+74.243.55.136 1 63 809743 20090424111724
+209.204.86.134 1 7 446949 20090415135506
+147.182.5.50 11 73 537947 20090402155732
+64.12.116.13 0 1 10985 
+64.12.116.143 1 11 74041 20090402135353
+76.5.96.34 6 84 1035998 20090404103912
+67.237.13.77 3 75 964586 20090427191212
+220.255.7.249 0 1 3358 
+64.12.116.201 0 4 11784 
+217.150.123.34 1 63 338327 20090406080741
+205.188.116.198 1 8 26461 20090402065921
+64.12.116.202 0 4 13128 
+166.216.128.7 1 27 115046 20090415051519
+68.190.97.89 42 670 5073460 20090430141702
+69.181.143.109 1 62 807459 20090402074102
+76.64.207.69 8 100 2652556 20090415202740
+207.62.155.49 1 62 807459 20090407131907
+205.188.117.77 0 8 30844 
+64.12.116.73 1 8 29636 20090402135406
+64.12.117.75 1 1 4249 20090402135437
+66.189.169.28 1 1 4165 20090401074217
+64.12.117.11 0 12 186824 
+70.138.7.170 3 83 1042182 20090422113638
+69.243.212.80 1 63 828929 20090419191151
+167.244.212.6 1 62 807459 20090408081154
+139.62.166.15 31 162 16249690 20090406085459
+207.106.200.18 27 27 0 20090430082417
+72.1.7.7 1 63 809743 20090423075857
+69.234.114.225 1 62 807459 20090415165731
+205.188.116.72 3 9 23024 20090430113518
+24.15.29.168 1 63 809744 20090420200522
+97.97.10.186 1 62 807459 20090415185723
+24.154.234.207 10 98 1173198 20090417122741
+70.219.99.11 1 63 809743 20090425113035
+205.188.112.11 0 1 9299 
+207.200.116.11 0 1 6572 
+75.142.121.42 1 63 809743 20090430095436
+66.71.253.13 3 3 12379 20090430222956
+205.188.116.210 3 19 125345 20090405144902
+69.71.222.186 3 3 70080 20090406212720
+206.53.144.39 1 25 139633 20090424102055
+64.12.112.67 2 5 30013 20090402140232
+98.24.242.240 5 93 1140463 20090401165124
+64.12.117.78 0 4 61616 
+210.56.19.13 1 7 597368 20090417134608
+72.21.228.210 18 166 3781277 20090409133121
+205.188.117.17 0 7 22871 
+216.138.147.69 35 189 2574081 20090430144728
+205.188.116.77 2 5 27422 20090430114008
+99.248.85.250 1 35 721323 20090416204113
+204.154.89.30 22 201 4132186 20090430135926
+64.12.116.76 0 1 9685 
+207.200.116.12 0 1 2300 
+64.12.117.68 1 2 14892 20090402135056
+64.12.116.8 0 10 40545 
+68.189.249.136 1 63 809744 20090420174545
+66.99.17.194 2 61 373375 20090416074209
+220.255.7.133 0 1 2470 
+98.30.81.98 1 63 809744 20090417165609
+76.17.175.6 1 62 295323 20090430104315
+205.188.116.143 0 4 40912 
+64.12.116.133 0 4 38071 
+87.198.128.82 1 62 807459 20090402185425
+208.216.116.10 6 69 836298 20090420073439
+64.12.116.20 0 2 18598 
+220.255.7.164 0 2 6471 
+12.198.86.195 2 68 882234 20090420061440
+205.188.116.19 0 1 14995 
+209.191.87.219 2 2 46716 20090423102937
+64.12.116.134 0 1 13600 
+207.200.116.6 0 2 37973 
+72.152.91.11 1 63 809743 20090429112930
+76.115.216.182 3 125 1614918 20090407112153
+65.210.123.243 1 1 22314 20090407185917
+129.93.5.129 4 64 330033 20090421195110
+65.6.169.16 1 63 809743 20090426093915
+205.152.67.36 7 112 1335940 20090429095232
+205.188.116.71 0 11 72751 
+64.12.116.200 0 5 28410 
+64.12.116.196 0 9 33337 
+216.195.197.234 2 66 839366 20090416092932
+64.12.116.79 0 3 23776 
+134.210.94.135 3 68 396831 20090401190810
+12.233.201.2 4 72 939477 20090407190058
+64.17.2.164 3 3 8258 20090430095359
+166.216.128.12 1 31 172732 20090415051608
+220.255.7.212 0 1 3178 
+208.67.34.202 3 66 2137576 20090406090342
+204.82.71.158 22 144 1579167 20090428063822
+205.188.117.7 1 4 51991 20090405144547
+207.200.116.66 0 2 6019 
+64.12.116.67 0 4 11624 
+64.114.199.1 1 1 23360 20090414123313
+205.188.117.76 0 10 204214 
+63.77.85.254 2 66 839360 20090422103647
+205.188.117.71 0 4 39886 
+68.112.135.248 1 63 809743 20090422200606
+75.189.197.19 2 63 341626 20090425190737
+64.83.235.18 2 64 809744 20090420054144
+208.80.195.39 3 3 70051 20090426014531
+64.12.116.16 0 1 10511 
+205.188.117.5 0 3 39160 
+67.82.106.184 1 62 807459 20090407133808
+75.221.202.139 1 7 395833 20090422064417
+74.255.34.2 2 61 364110 20090424093617
+64.12.117.16 0 2 26624 
+96.249.114.197 8 97 1086554 20090416075014
+74.52.245.146 5 5 116767 20090429161511
+64.12.117.79 2 6 29745 20090403103857
+173.48.90.175 2 62 332994 20090424163131
+205.188.116.205 0 1 8596 
+205.188.116.76 0 2 13437 
+166.216.128.8 0 6 46274 
+65.33.75.145 1 40 737518 20090404080718
+70.181.18.210 3 68 851718 20090416054314
+76.121.230.193 9 119 1312105 20090428223858
+220.255.7.211 0 1 3065 
+12.106.99.98 10 242 4452584 20090427151631
+206.53.153.20 1 24 137335 20090414162805
+98.64.237.89 3 79 1009672 20090423050816
+205.188.116.199 0 7 19457 
+93.182.174.155 2 2 0 20090411070233
+64.12.116.140 0 1 30370 
+68.190.104.203 4 98 1206386 20090417091656
+220.255.7.156 0 3 20434 
+209.160.73.80 1 1 23358 20090424123345
+64.12.116.135 0 6 46254 
+71.107.139.245 1 63 809743 20090423111757
+66.31.219.148 1 60 250092 20090423210840
+76.20.153.227 2 66 839266 20090421063725
+94.181.225.100 1 66 686849 20090430065243
+205.188.116.18 2 3 15358 20090430114221
+206.138.130.3 0 30 150009 
+67.43.254.188 1 63 809744 20090418090112
+65.183.69.209 1 62 295323 20090430115516
+64.12.117.7 4 10 51362 20090402140418
+64.12.116.80 0 4 1165734 
+24.27.186.62 18 143 1941557 20090428160452
+220.255.7.163 0 3 18657 
+150.70.84.47 1 1 20541 20090420115056
+205.188.117.75 1 8 23647 20090415144544
+168.169.89.10 1 62 321069 20090421080101
+74.68.142.238 8 88 2554727 20090427172102
+64.12.116.195 0 4 11316 
+66.173.97.38 2 67 849431 20090413121855
+64.12.112.72 0 1 2828 
+69.182.153.194 1 60 280789 20090422134854
+75.137.40.194 1 1 23360 20090401070949
+204.64.62.132 1 46 773326 20090427101521
+216.243.192.137 3 74 873843 20090421133836
+170.135.241.45 4 5 0 20090411004421
+205.188.116.20 0 3 27897 
+64.12.116.141 0 3 15892 
+93.182.172.134 1 1 0 20090406014541
+208.79.15.102 1 60 313594 20090424013220
+76.18.34.249 9 92 1630609 20090422210211
+205.188.116.135 0 4 18861 
+207.200.116.139 0 2 11966 
+63.131.71.148 2 66 344207 20090403170936
+64.12.117.76 0 2 30759 
+64.12.116.66 0 4 46319 
+24.125.150.225 1 36 725704 20090429185849
+69.58.178.29 10 10 224503 20090410234225
+205.188.117.66 0 1 3614 
+69.120.193.106 1 62 807459 20090413212146
+205.188.116.12 0 5 39705 
+71.112.106.148 20 134 3226324 20090424204611
+209.111.90.131 25 245 4220027 20090416081306
+70.127.78.79 1 63 809743 20090429184119
+205.188.116.134 0 2 16882 
+166.164.137.161 3 80 1017688 20090414010439
+205.188.117.12 4 14 37276 20090430114210
+71.124.106.98 3 68 851762 20090407142825
+24.199.126.121 3 67 1271138 20090421070649
+216.9.211.166 7 144 3557180 20090428190951
+69.47.139.238 4 75 1048883 20090411073007
+65.55.107.230 1 1 22003 20090410183540
+205.188.117.70 3 5 13726 20090405144902
+205.188.116.68 10 17 44357 20090430114210
+12.177.132.2 1 60 280789 20090422125604
+207.200.116.69 0 1 3149 
+205.188.117.9 0 10 40253 
+64.122.96.35 12 101 1328969 20090424135905
+75.103.7.156 1 92 903696 20090401122018
+64.12.116.6 0 9 31326 
+68.60.7.94 1 62 295323 20090428182013
+64.12.117.8 0 1 14088 
+71.228.34.193 1 62 807459 20090413044448
+64.12.116.69 0 4 12224 
+65.254.172.9 7 91 1407524 20090428133706
+208.108.81.15 1 57 226414 20090427085623
+124.168.157.62 1 10 69357 20090414051117
+64.93.112.252 7 74 5270849 20090407090720
+205.188.116.145 2 17 53181 20090402070002
+205.188.116.79 0 5 56894 
+75.74.180.228 1 57 220270 20090422151511
+68.164.218.242 1 15 71101 20090416080948
+68.192.242.125 1 63 809744 20090418144341
+76.189.30.18 3 75 964586 20090417193637
+64.12.116.78 0 1 7666 
+64.122.38.37 8 88 1217541 20090406140944
+137.112.137.114 2 59 358262 20090426160128
+216.198.160.184 1 27 670571 20090430135325
+207.200.116.8 0 1 15972 
+205.188.117.19 0 2 14174 
+198.204.66.129 22 220 7794375 20090420131808
+64.12.116.208 2 7 317011 20090403102437
+72.189.196.222 19 164 6765843 20090425142125
+24.26.198.107 1 62 807459 20090412151907
+66.185.5.22 5 97 1346103 20090427142808
+69.8.34.98 1 56 788269 20090407004910
+24.173.30.178 7 309 7606659 20090430120036
+64.12.117.5 0 2 26185 
+164.116.64.239 3 60 358258 20090417085233
+206.138.130.2 3 38 749719 20090402092123
+69.88.88.66 1 62 807459 20090413053718
+24.187.116.129 22 1295 2500568 20090411095522
+205.188.116.196 0 14 43095 
+97.117.156.104 4 87 1051709 20090405190824
+173.70.76.2 0 1 2611 
+75.177.150.130 2 124 1614918 20090415062744
+208.80.195.38 1 1 23358 20090422062254
+205.188.117.65 0 3 18450 
+205.188.116.80 0 11 1966816 
+205.188.117.10 0 7 34908 
+69.58.178.28 10 10 224503 20090411000058
+69.58.178.27 10 10 224459 20090414082211
+189.5.23.29 3 18 217682 20090411105931
+205.188.116.131 0 2 12948 
+98.118.21.107 9 103 736434 20090428091628
+69.58.178.32 10 10 224503 20090414043721
+32.169.50.154 1 34 142100 20090415091751
+205.188.117.74 0 12 70478 
+205.188.116.17 0 2 399515 
+38.108.180.86 3 3 12882 20090425160707
+207.200.116.136 0 1 3178 
+71.195.252.1 1 57 220271 20090416183406
+207.114.153.34 8 89 1147516 20090407115847
+205.188.116.11 0 2 35588 
+209.136.186.234 4 130 1769113 20090426165548
+64.12.116.7 0 10 55475 
+205.188.116.208 2 10 523973 20090430113346
+208.80.195.37 2 2 46716 20090430211436
+64.12.116.19 0 5 62911 
+71.61.75.117 16 259 2494543 20090402180344
+69.125.190.158 1 62 826654 20090401164504
+206.16.60.123 1 62 614163 20090413135410
+209.131.65.69 20 154 3281817 20090426160149
+64.12.117.14 0 3 23999 
+119.240.244.241 1 63 809743 20090430164738
+207.179.195.37 1 63 809743 20090425181413
+205.188.116.65 0 1 13812 
+64.12.116.65 0 1 11297 
+220.255.7.247 0 1 2637 
+207.225.51.30 2 57 374648 20090417110855
+68.156.22.137 1 63 679416 20090421114117
+64.12.116.11 0 1 20398 
+64.12.117.71 0 2 22317 
+205.188.117.15 0 2 19026 
+74.169.101.252 1 71 834105 20090405124700
+74.55.161.226 18 18 399630 20090404072741
+89.247.238.245 1 2 67386 20090428022155
+205.188.116.9 1 17 72382 20090405144905
+220.255.7.183 0 2 6071 
+71.193.65.114 2 65 837109 20090406122247
+64.12.117.12 0 5 15996 
+65.7.213.120 1 63 809743 20090422204944
+74.237.56.73 5 83 997557 20090404174613
+24.139.215.148 5 70 2495710 20090409105753
+68.209.73.60 1 62 807459 20090407075650
+71.205.99.187 2 4 126000 20090419010821
+71.227.3.251 1 1 0 20090404213659
+66.190.110.82 1 63 809743 20090423182014
+72.48.40.2 4 76 3596471 20090420084632
+63.160.168.230 1 62 807459 20090402110156
+76.115.217.20 9 165 1960433 20090423134218
+96.18.58.130 26 148 412431 20090427201629
+72.235.129.245 1 61 289421 20090428130501
+64.12.116.68 0 5 17227 
+71.182.9.18 5 68 440538 20090429165553
+205.188.116.69 0 9 83821 
+65.173.173.19 1 25 665305 20090407211244
+205.188.116.133 0 4 31210 
+71.100.176.178 6 91 5486070 20090429081822
+64.12.116.198 2 5 13886 20090402135259
+97.112.40.5 16 142 3095699 20090426134744
+12.54.55.179 36 243 4316323 20090423143724
+220.255.7.176 1 3 23062 20090416083754
+205.188.117.18 0 3 10165 
+203.27.226.82 2 2 46720 20090415055055
+209.175.16.30 1 1 4149 20090429075547
+205.188.116.202 0 7 24076 
+64.12.116.17 0 1 10937 
+69.128.116.162 23 293 2378670 20090423085815
+74.73.113.86 1 55 786602 20090401130257
+64.231.185.221 1 63 809743 20090426163208
+72.89.140.138 1 62 807459 20090403190011
+220.255.7.134 0 2 6467 
+69.89.205.141 10 126 1648189 20090414141848
+65.210.123.245 1 1 888 20090407184310
+144.59.12.230 1 63 809743 20090423172845
+72.20.238.93 2 3 28044 20090413210434
+68.32.145.200 1 63 809743 20090425074253
+71.108.152.192 1 1 4165 20090412050115
+70.138.25.139 32 255 3515947 20090427163416
+72.144.7.64 5 78 956977 20090430091112
+205.188.116.16 0 1 10511 
+68.39.88.34 1 63 809743 20090428204745
+70.232.183.8 2 69 790900 20090413065223
+209.232.186.130 8 92 5468756 20090427133630
+205.188.116.132 0 1 3322 
+69.58.178.33 10 10 224503 20090414050745
+207.200.116.7 0 1 10774 
+24.116.249.91 1 35 722183 20090402112349
+64.12.116.5 1 13 82465 20090402135147
+69.204.178.212 0 1 3429 
+209.195.161.43 4 82 975204 20090424225614
+76.203.209.71 3 66 962768 20090414170103
+205.188.117.8 0 8 48252 
+161.53.179.227 1 21 102937 20090420035056
+204.132.102.1 1 62 807459 20090407075240
+209.204.102.230 2 18 576051 20090407072421
+64.12.116.207 3 6 48530 20090402140409
+64.12.117.70 0 1 17609 
+72.76.11.126 1 40 739687 20090410124616
+76.208.38.135 5 70 5160106 20090419115421
+205.188.116.6 0 14 41505 
+205.188.116.78 0 4 19018 
+205.188.116.140 0 5 164352 
+74.8.106.34 1 62 807459 20090410114133
+220.7.28.14 1 64 812922 20090421020036
+74.55.94.90 3 3 66605 20090401113512
+205.188.117.68 3 4 14893 20090405144806
+220.255.7.223 0 1 2850 
+67.201.38.209 1 63 828952 20090428135029
+67.60.1.159 19 500 6375301 20090427013024
+64.12.117.17 0 2 15028 
+70.43.234.162 3 69 853958 20090423072129
+207.200.116.130 0 1 9299 
+75.182.88.177 46 657 7302391 20090425085141
+204.212.1.198 1 67 823199 20090410135400
+91.117.79.243 1 72 336141 20090414125913
+80.101.105.141 2 68 851677 20090424155847
+71.62.245.154 1 2 63637 20090401115249
+220.255.7.181 0 1 2828 
+220.255.7.206 0 2 6319 
+96.28.184.223 2 69 920396 20090413174035
+205.188.117.13 2 10 2625587 20090405144233
+91.138.225.114 1 1 22008 20090422131204
+205.188.117.67 0 3 16584 
+209.177.254.42 13 127 1527981 20090422043321
+64.130.165.168 1 63 809743 20090426185214
+93.182.174.106 4 4 0 20090403220338
+220.255.7.194 0 1 3702 
+207.200.116.138 0 1 3364 
+64.12.116.197 0 8 24928 
+199.91.37.33 1 59 263297 20090407143447
+220.255.7.221 0 1 3211 
+205.188.116.139 0 4 77097 
+220.255.7.219 0 3 25174 
+190.59.8.102 1 63 809743 20090423144854
+64.12.116.145 0 7 28989 
+205.188.116.66 0 3 31982 
+69.58.178.26 10 10 224503 20090409222736
+71.42.10.169 8 104 1259983 20090422134822
+192.138.178.149 1 63 809744 20090419004649
+205.188.117.73 0 1 13061 
+68.106.75.208 2 66 839360 20090422103237
+97.90.229.3 1 2 40804 20090429173758
+169.139.176.84 1 67 321192 20090408094452
+69.138.63.176 3 80 1246385 20090408195755
+64.12.117.65 9 15 57088 20090430184009
+70.115.184.92 1 62 807459 20090415132352
+68.15.61.37 1 25 167719 20090420114906
+64.12.116.138 0 1 13148 
+64.12.116.144 0 4 28104 
+205.188.116.130 0 1 3429 
+205.188.116.138 0 2 19720 
+71.192.128.86 8 101 2721118 20090428122406
+97.104.61.52 1 63 809743 20090423131151
+96.243.158.199 12 240 3481688 20090421132842
+205.188.116.200 0 8 26803 
+207.112.87.1 1 35 722312 20090422173716
+85.91.86.134 0 1 12918 
+174.101.156.62 2 72 901489 20090416185615
+75.55.127.180 4 83 1032104 20090415175953
+220.255.7.199 0 1 3054 
+220.255.7.136 0 1 21991 
+70.169.169.199 3 66 989763 20090418162817
+64.12.116.206 0 8 26672 
+64.122.142.138 1 62 807459 20090410085635
+74.95.66.241 18 139 5484937 20090427104017
+205.188.116.206 0 4 30972 
+205.196.190.199 1 39 734671 20090423094533
+205.188.116.195 0 16 57496 
+68.219.241.202 1 62 807459 20090415144700
+161.53.179.233 1 19 118083 20090420035059
+207.200.116.70 0 1 2816 
+96.5.63.21 4 5 47703 20090428102911
+69.63.137.132 1 24 147327 20090422142325
+208.80.195.31 1 1 23335 20090418171452
+207.63.174.142 1 62 807459 20090414095155
+220.255.7.185 0 4 12053 
+212.174.166.194 1 62 807459 20090408232941
+66.254.199.107 2 20 156149 20090430132843
+64.12.117.74 0 4 13184 
+64.12.112.195 0 1 2828 
+64.17.74.126 10 125 6328449 20090413132050
+64.12.117.10 3 12 1053072 20090402135406
+24.229.14.225 1 38 731970 20090402130854
+221.4.222.178 2 66 839360 20090423195017
+69.58.178.30 10 10 224503 20090411151251
+64.12.116.205 0 1 8596 
+208.24.125.66 34 219 8687662 20090430090517
+205.188.116.75 0 7 17960 
+68.194.97.79 2 65 827998 20090420191749
+66.64.251.194 3 67 959644 20090420073513
+216.223.173.45 1 2 62999 20090403182250
+90.211.234.175 0 1 50761 
+68.113.227.202 1 62 807459 20090410074457
+64.12.117.72 0 2 18598 
+64.12.116.139 0 1 13100 
+220.255.7.222 0 1 3149 
+98.125.249.135 1 63 809743 20090423081519
+69.139.235.95 4 76 4537913 20090428142706
+75.60.5.199 39 160 3120049 20090421123835
+205.188.117.79 2 6 46900 20090430113955
+66.251.33.67 1 63 809743 20090423134235
+99.3.174.22 33 339 6345563 20090424192128
+208.196.3.108 16 134 11125110 20090423110756
+207.28.81.72 2 66 839360 20090428065539
+161.53.179.226 0 13 52485 
+68.239.135.192 2 66 353598 20090421115319
+64.12.116.72 1 1 3872 20090402134759
+72.92.175.59 3 69 853958 20090430103951
+173.24.171.201 12 121 5934731 20090401092550
+99.9.251.201 7 151 2002825 20090417111827
+72.24.39.227 1 55 784519 20090417214329
+64.12.117.80 2 9 37774 20090402140035
+66.134.167.50 2 58 356943 20090406103853
+207.200.116.73 0 1 2662 
+220.255.7.178 0 1 2794 
+216.151.80.158 1 69 374351 20090415042129
+150.70.84.26 1 1 23360 20090407144843
+190.40.196.50 3 49 348086 20090426213613
+69.66.236.85 2 66 833886 20090419132419
+205.188.117.80 1 14 39147 20090405144140
+205.188.116.142 4 11 43779 20090430114008
+132.159.143.65 1 7 415909 20090402122810
+220.255.7.168 0 1 9816 
+205.188.116.14 0 1 8178 
+207.200.116.67 0 1 2982 
+205.188.116.74 0 10 37806 
+205.188.116.209 0 2 25286 
+72.54.149.108 8 82 5100812 20090429084552
+12.216.152.155 14 94 2073553 20090402094742
+68.198.6.246 1 20 140452 20090406212838
+205.188.116.8 0 9 30373 
+65.32.203.56 0 2 6784 
+64.122.192.126 1 62 807459 20090404171747
+208.80.195.32 1 1 23335 20090416085933
+99.226.13.35 2 65 837109 20090414135853
+24.190.231.37 1 1 3436 20090426093038
+205.188.116.203 0 3 30242 
+220.255.7.135 0 2 6485 
+68.199.247.42 1 63 809744 20090420163057
+209.191.87.218 2 2 46716 20090426235710
+205.188.117.16 0 2 16985 
+139.62.164.126 4 76 961553 20090408120603
+207.200.116.135 1 3 396038 20090423214323
+205.188.116.10 3 16 84685 20090423071914
+71.8.71.142 9 106 6101533 20090428150840
+67.33.52.151 3 67 960796 20090417084147
+24.128.234.78 0 1 20398 
+205.188.116.67 0 6 14530 
+64.114.199.38 1 1 23360 20090414170656
+66.147.47.157 23 197 3966400 20090420083413
+71.35.86.232 8 89 1146679 20090413204341
+64.12.117.13 0 1 9816 
+64.12.117.15 0 1 6335 
+208.45.127.97 6 87 605377 20090403211151
+64.12.116.12 0 4 36762 
+173.23.157.202 28 242 7109552 20090424091015
+75.158.226.57 2 59 5068365 20090425105015
+64.12.116.204 0 6 133673 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20090401 131 1772 29257880 34
+20090402 119 1300 29189510 49
+20090403 93 1634 26706148 17
+20090404 38 455 7846029 18
+20090405 31 362 7039525 20
+20090406 95 1006 31535413 18
+20090407 276 1658 26808592 30
+20090408 91 810 8627156 17
+20090409 255 1808 72960748 15
+20090410 140 972 15399505 17
+20090411 113 1617 6073279 14
+20090412 23 349 3763537 6
+20090413 54 940 30273282 16
+20090414 594 2840 45366485 26
+20090415 163 1535 30858083 32
+20090416 244 1926 38247595 22
+20090417 38 734 9300833 13
+20090418 24 428 4665761 11
+20090419 20 345 8732700 12
+20090420 103 1026 15179652 27
+20090421 448 2548 32546183 18
+20090422 53 1013 11013038 20
+20090423 143 2189 39087432 36
+20090424 173 1712 18022654 23
+20090425 102 1138 24396762 13
+20090426 60 947 14210255 14
+20090427 154 1680 39275759 21
+20090428 91 1349 26738664 20
+20090429 90 641 17756192 14
+20090430 114 1441 22547436 30
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 10
+5mn-15mn 68
+2mn-5mn 59
+15mn-30mn 24
+30s-2mn 74
+0s-30s 365
+30mn-1h 23
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 93
+/_vti_bin/_vti_aut/author.exe 978 23816421 0 13
+/ 690 6278483 447 281
+/rodreviews.htm 164 1269747 12 12
+/buyenergybeefsticks.htm 128 959275 10 14
+/meatminotaur.htm 119 997255 19 13
+/meatsponsors.htm 116 1088632 11 18
+/183562_BullroaringsnortingWAV.wav 111 141629230 4 28
+/nutritionalinformation.htm 107 1121752 11 16
+/aboutus.htm 100 1179466 9 16
+/faqs.htm 95 1540364 3 14
+/MadSkillsMusicMP3.mp3 70 60236660 0 17
+/locateretail.htm 46 249464 3 10
+/images/digits/LED/ 5 2590 0 0
+/reviewerdixon.htm 8 7029 0 0
+/sos.htm 52 518275 4 4
+/locatedistributor.htm 40 233166 1 10
+/reviewersavage.htm 8 7085 0 0
+/reviewerbuthker.htm 15 12309 1 1
+/_vti_inf.html 39 68406 15 0
+/PDF-PReleaseOurRecipe.pdf 10 85135 0 4
+/reviewerlarrymazza.htm 12 10424 3 2
+/reviewerbevans.htm 9 8299 0 1
+/reviewerkellyann.htm 12 11508 0 0
+/PDF-PReleasePHF030609.pdf 5 243764 0 0
+/revieweroscarcortina.htm 8 7165 0 0
+/PDF-PReleaseYahoo030609.pdf 6 99324 0 1
+/cgi-bin/awstats.pl 4 107163 1 0
+/reviewerbearsonfish.htm 5 5139 0 0
+/images/.lwbm.tmp 1 1107 0 0
+/reviewerbearsonhunt.htm 6 6430 0 2
+/PDF-MemoRodyHawkins.pdf 17 1141568 1 4
+/images/digits/LED_g/ 5 2610 0 0
+/images/digits/LED_r/ 5 2610 0 0
+/reviewerthornsley.htm 9 8132 0 1
+/reviewerhawkins.htm 8 7277 0 0
+/rodreviewsbymedix.htm 41 444267 2 4
+/reviewerkollar.htm 4 4211 0 3
+/mailinglist.htm 34 449310 4 3
+/YahooPR030609Low.pdf 2 49662 0 0
+/reviewerblyth.htm 10 9207 0 0
+/reviewermazza.htm 1 887 0 0
+/reviewerjoecuff.htm 11 8259 0 1
+/faqscaffeine.htm 11 42698 0 2
+/images/lwbm/ 10 140578 1 0
+/reviewercuff.htm 3 2643 0 1
+/images/digits/bluesky/ 5 2630 0 0
+/reviewermillar.htm 9 8025 0 0
+/reviewerdinkins.htm 10 8310 1 1
+/reviewerwalters.htm 8 7781 0 1
+/rodreviewsbyletusprey.htm 52 409628 1 2
+/reviewerlongmire.htm 9 8765 1 2
+/images/_vti_cnf/ 9 15120 0 0
+/images/digits/odometer/ 5 2640 0 0
+/Memo%20Rody%20Hawkins,%20PhD%20Low.pdf 8 615528 0 1
+/mailingthankyou.htm 2 20148 0 0
+/reviewerduff.htm 10 9495 1 2
+/images/digits/plain_b/ 5 2630 0 0
+/images/lwbm.bak2/ 9 5634 0 0
+/reviewerbearson.htm 7 7042 0 1
+/images/digits/embwhite/ 5 2640 0 0
+/_vti_bin/shtml.exe/_vti_rpc 39 9360 0 0
+/images/Extropia/ 9 4563 0 0
+/images/digits/ 9 17982 0 0
+/images/digits/default/ 5 2630 0 0
+/reviewerwalsh.htm 9 8291 1 2
+/madskills.htm 77 583438 4 3
+/reviewercazorla.htm 9 7268 0 3
+/reviewerbudd.htm 1 883 0 0
+/images/digits/links/ 5 2610 0 0
+/reviewerlongmirefeature.htm 15 14635 5 4
+/reviewerneeser.htm 15 14137 0 2
+/images/digits/blushdw/ 5 2630 0 0
+/rodreviewsbylimelighters.htm 37 425335 2 3
+/images/ 10 23500 0 0
+/buygear.htm 80 866727 4 19
+/sitemap.htm 40 421917 1 7
+/PressOurRecipeForLongNP.pdf 8 136216 0 4
+/PHFPressRelease030609.pdf 5 290174 1 1
+/readall.htm 71 841162 3 5
+/reviewerbearson2.htm 7 7084 0 0
+/images/lwbm/_vti_cnf/ 9 125664 0 0
+/images/digits/curly/ 5 2610 0 0
+/rodreviewsbynoflatearth.htm 37 379123 2 3
+/images/digits/xmas/ 5 2600 0 0
+/reviewerlostgingras.htm 8 7173 0 1
+/images/digits/pumpkin/ 5 2630 0 0
+/reviewerdawn.htm 12 11190 0 0
+/contactus.htm 87 958975 7 33
+/images/lwbm.bak2/_vti_cnf/ 5 2685 0 0
+/reviewerdustybudd.htm 8 5306 0 0
+/privacystatement.htm 18 308066 5 2
+/rodreviewsbyjox.htm 61 454435 8 8
+/rodreviewsbymateaters.htm 64 577975 14 17
+END_SIDER

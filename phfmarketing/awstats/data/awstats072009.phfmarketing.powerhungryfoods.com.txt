@@ -1,0 +1,390 @@
+AWSTATS DATA FILE 6.4 (build 1.812)
+# If you remove this file, all statistics for date 2009-07 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2534                
+POS_VISITOR 5846                
+POS_DAY 9007                
+POS_DOMAIN 3095                
+POS_LOGIN 3325                
+POS_ROBOT 3517                
+POS_WORMS 3649                
+POS_EMAILSENDER 3780                
+POS_EMAILRECEIVER 3923                
+POS_SESSION 9232                
+POS_SIDER 9415                
+POS_FILETYPES 4058                
+POS_OS 4236                
+POS_BROWSER 4308                
+POS_SCREENSIZE 4429                
+POS_UNKNOWNREFERER 4503                
+POS_UNKNOWNREFERERBROWSER 4679                
+POS_ORIGIN 4792                
+POS_SEREFERRALS 4928                
+POS_PAGEREFS 5072                
+POS_SEARCHWORDS 5220                
+POS_KEYWORDS 5372                
+POS_MISC 2198                
+POS_ERRORS 5431                
+POS_CLUSTER 3181                
+POS_SIDER_404 5537                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20090805131441 1 0 42098163703
+FirstTime 20090707155900
+LastTime 20090731175440
+LastUpdate 20090807033314 1 0 0 0 0
+TotalVisits 18                  
+TotalUnique 17                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 120                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 6 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 9 102 454290 1 1 409
+4 15 54 345479 1 1 409
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 9 191 699531 0 0 0
+8 0 0 0 0 0 0
+9 9 195 1685365 2 2 373125
+10 4 98 547544 0 0 0
+11 0 0 0 0 0 0
+12 4 135 249428 1 1 5
+13 0 0 0 0 0 0
+14 3 62 358281 1 1 46824
+15 3 93 465866 1 1 56676
+16 1 1 130044 0 0 0
+17 6 104 1019589 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 63 1035 5955417
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+bbretail 17 17 157041 20090728044526
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+html 33 235722 0 0
+jpg 12 141029 0 0
+pdf 11 1882421 0 0
+Unknown 2 480 0 0
+gif 949 3379004 0 0
+exe 17 157041 0 0
+swf 11 159720 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 3
+winlong 104
+winxp 832
+Unknown 99
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 6
+msie6.0 1
+msie8.0 2
+mozilla 80
+firefox3.0.12 97
+msie7.0 836
+Unknown 19
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+MSFrontPage/6.0 20090728044526
+Mozilla/4.0_(compatible;_MS_FrontPage_6.0) 20090728044201
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+MSFrontPage/6.0 20090728044526
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 37 369
+From1 0 0
+From2 0 0
+From3 0 0
+From4 26 666
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+401 2 818
+302 1 5
+206 4 476625
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 120
+70.89.59.41 27 253 1322082 20090730101623
+69.198.169.10 8 108 1320703 20090716094405
+97.104.137.170 6 104 1019589 20090731175440
+97.112.16.172 4 94 595910 20090707160009
+173.23.157.202 3 62 358281 20090722142121
+205.188.116.19 2 2 4158 20090729074840
+205.188.116.130 2 2 3772 20090729074839
+205.188.117.14 2 2 73918 20090729074653
+205.188.117.5 1 1 0 20090729074608
+150.70.84.27 1 1 25231 20090716104030
+205.188.116.68 0 1 3484 
+64.12.116.70 0 2 0 
+64.12.117.66 0 2 3297 
+205.188.116.73 0 4 0 
+205.188.116.210 0 3 3175 
+64.12.117.69 0 2 3558 
+205.188.117.9 0 5 3472 
+205.188.117.6 0 3 2796 
+64.12.116.15 0 4 18859 
+64.12.116.6 0 2 2988 
+205.188.116.204 0 3 0 
+205.188.116.137 0 2 0 
+205.188.116.5 0 2 0 
+64.12.117.16 0 2 3617 
+64.12.116.139 0 4 3227 
+205.188.117.13 0 4 0 
+64.12.117.73 0 5 18827 
+64.12.116.130 1 1 3772 20090731120514
+205.188.117.67 0 2 0 
+205.188.116.69 0 1 13087 
+205.188.117.17 0 2 0 
+205.188.116.77 0 2 0 
+205.188.116.133 0 6 0 
+205.188.116.207 0 2 0 
+64.12.117.79 1 3 6458 20090731122435
+205.188.117.79 0 2 0 
+205.188.116.205 0 1 2559 
+205.188.116.76 0 4 0 
+205.188.116.79 0 9 9087 
+64.12.116.76 0 4 5901 
+64.12.116.137 0 2 3215 
+64.12.116.77 0 4 6503 
+205.188.117.20 0 2 0 
+205.188.116.201 0 7 0 
+64.12.116.197 0 2 3538 
+205.188.116.144 0 6 0 
+205.188.116.70 0 2 0 
+205.188.116.139 0 3 2825 
+64.12.116.8 0 2 3092 
+205.188.117.69 0 3 434 
+205.188.117.19 1 3 262109 20090729074910
+205.188.116.199 0 2 0 
+205.188.116.66 0 1 71877 
+205.188.117.73 0 2 0 
+64.12.117.80 0 2 3032 
+64.12.116.133 0 4 7092 
+64.12.117.5 1 1 5725 20090731120623
+205.188.116.196 0 2 0 
+64.12.116.14 0 4 7029 
+64.12.116.135 0 2 3446 
+64.12.117.9 0 4 5989 
+64.12.117.65 0 2 3691 
+64.12.117.20 0 2 6139 
+64.12.116.74 0 6 8356 
+64.12.116.144 0 6 6173 
+205.188.116.15 0 5 15972 
+205.188.117.65 0 2 0 
+64.12.117.67 0 3 14366 
+64.12.116.143 0 2 3061 
+64.12.116.13 0 4 5974 
+64.12.116.80 0 4 3090 
+205.188.117.80 0 3 13419 
+205.188.116.80 0 4 0 
+205.188.117.75 0 2 0 
+65.189.30.42 0 3 6842 
+205.188.116.14 0 6 0 
+205.188.116.71 0 2 5843 
+205.188.116.74 0 2 0 
+205.188.117.74 0 4 0 
+64.12.116.196 0 2 3264 
+64.12.116.201 0 4 7188 
+64.12.116.141 0 2 6566 
+64.12.116.10 0 2 3214 
+205.188.116.206 0 2 5684 
+205.188.116.135 0 3 3380 
+205.188.116.11 0 2 0 
+205.188.116.8 0 2 0 
+64.12.116.79 0 4 6173 
+205.188.116.208 0 1 20639 
+205.188.116.195 0 3 0 
+205.188.117.77 0 2 0 
+64.12.116.73 1 5 6482 20090731120514
+205.188.117.16 0 6 3678 
+64.12.116.207 0 2 3411 
+64.12.117.70 0 2 3039 
+205.188.116.10 0 4 78145 
+205.188.117.66 0 3 2126 
+64.12.117.11 0 2 3546 
+64.12.117.77 0 2 2910 
+205.188.116.6 0 6 6222 
+205.188.117.7 0 1 32329 
+64.12.117.74 0 2 2984 
+205.188.116.72 0 3 27889 
+205.188.116.134 0 1 3161 
+64.12.116.11 0 2 3038 
+205.188.116.197 0 8 0 
+64.12.116.199 0 2 3016 
+205.188.116.67 0 2 0 
+64.12.117.17 0 2 2944 
+205.188.117.12 0 2 0 
+64.12.116.67 0 2 3344 
+64.220.228.210 1 87 364662 20090731094710
+205.188.116.13 0 5 13221 
+205.188.117.71 0 3 3386 
+205.188.116.7 1 1 4159 20090729074904
+64.12.117.6 0 2 2913 
+64.12.117.13 0 4 6092 
+205.188.117.70 0 2 0 
+64.12.117.12 0 2 2655 
+64.12.116.204 0 1 3317 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20090707 4 94 595910 1
+20090716 9 109 1345934 2
+20090722 3 62 358281 1
+20090728 24 156 799769 1
+20090729 9 191 699531 6
+20090730 3 97 522313 1
+20090731 11 326 1633679 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 1
+2mn-5mn 3
+0s-30s 11
+30s-2mn 2
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 23
+/_vti_bin/_vti_aut/author.exe 17 157041 0 1
+/ 11 77101 9 4
+/mediasupport.html 6 105675 0 0
+/productintegrity.html 3 8365 2 2
+/samplerequests.html 2 5725 2 2
+/Specs-PHFItemCodeLR2x42.pdf 2 150130 0 1
+/caffeinatedcomps.html 2 4158 1 1
+/_vti_bin/shtml.exe/_vti_rpc 2 480 0 0
+/Media-ReleaseYahoo072809.pdf 2 72420 0 1
+/_vti_inf.html 2 3508 1 0
+/Media-TVStoryboard.pdf 1 481459 0 1
+/pricelist.html 1 4295 0 0
+/Caffeinated-Drinks.pdf 1 69701 1 0
+/SponsoredEvents.pdf 1 241673 0 0
+/Media-TVDemographicsG4.pdf 1 244767 0 0
+/sellsheets.html 1 5972 0 0
+/Integrity-Attributes.pdf 1 243932 1 1
+/sponsoredevents.html 1 4172 0 0
+/marketingsupplies.html 1 4217 0 1
+/Specs-CaseLabel2x42.pdf 1 130044 0 1
+/Media-MagazineTickler.pdf 1 248295 0 1
+/thankyou.html 1 3854 1 1
+/productspecifications.html 2 8680 0 0
+END_SIDER

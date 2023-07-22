@@ -1,0 +1,441 @@
+AWSTATS DATA FILE 6.4 (build 1.812)
+# If you remove this file, all statistics for date 2009-02 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2535                
+POS_VISITOR 12852               
+POS_DAY 13905               
+POS_DOMAIN 3302                
+POS_LOGIN 3536                
+POS_ROBOT 3734                
+POS_WORMS 3866                
+POS_EMAILSENDER 3997                
+POS_EMAILRECEIVER 4140                
+POS_SESSION 14358               
+POS_SIDER 14567               
+POS_FILETYPES 4275                
+POS_OS 4489                
+POS_BROWSER 4584                
+POS_SCREENSIZE 4710                
+POS_UNKNOWNREFERER 4784                
+POS_UNKNOWNREFERERBROWSER 5103                
+POS_ORIGIN 5300                
+POS_SEREFERRALS 5443                
+POS_PAGEREFS 5587                
+POS_SEARCHWORDS 6165                
+POS_KEYWORDS 6317                
+POS_MISC 2198                
+POS_ERRORS 6376                
+POS_CLUSTER 3392                
+POS_SIDER_404 6514                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20090301032950 1 0 54336382079
+FirstTime 20090212132346
+LastTime 20090227154929
+LastUpdate 20090302033409 1 0 0 0 0
+TotalVisits 62                  
+TotalUnique 16                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 29                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 19 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 1 2300 0 0 0
+2 24 282 1273620 2 2 414
+3 280 1381 5670326 3 12 3039
+4 267 2228 6366492 9 12 781835
+5 299 3203 7509328 34 34 549180
+6 127 987 4875327 16 16 332269
+7 56 519 3475220 3 3 1227
+8 68 237 2664461 41 311 3086797
+9 178 1843 7354228 3 11 3223
+10 184 1440 5518838 7 23 457822
+11 111 846 3765436 4 4 179204
+12 105 446 3245061 14 14 368630
+13 172 1363 6030886 6 6 95410
+14 278 2034 10709582 12 12 1021659
+15 110 1174 7045641 24 24 1017361
+16 36 146 3099344 46 46 2211815
+17 0 1 2300 0 0 0
+18 15 25 695042 0 0 0
+19 18 31 1325359 11 11 309066
+20 15 28 580935 0 0 0
+21 21 116 1062536 0 0 0
+22 0 1 2300 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2364 18332 82274562
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+bbretail 1675 1675 11496815 20090227154929
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+html 516 7701148 0 0
+jpg 352 1992708 0 0
+pdf 108 11451625 0 0
+Unknown 40 9600 0 0
+exe 1675 11496815 0 0
+xls 25 5043456 0 0
+gif 15413 41879942 0 0
+swf 203 2699268 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 1
+winxp 13271
+winlong 903
+win2000 1
+Unknown 4156
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 6
+msie6.0 3
+mozilla 2431
+firefox3.0.6 8992
+Unknown 1725
+msie7.0 5180
+safari 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+MSFrontPage/12.0 20090219192251
+MSFrontPage/6.0 20090227154929
+Mozilla/4.0_(compatible;_MS_FrontPage_12.0) 20090219192251
+Microsoft_Office_Existence_Discovery 20090226161855
+Mozilla/4.0_(compatible;_MS_FrontPage_6.0) 20090227153914
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+MSFrontPage/12.0 20090219192251
+MSFrontPage/6.0 20090227154929
+Microsoft_Office_Existence_Discovery 20090226161855
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2047 4935
+From1 0 0
+From2 0 0
+From3 1 43
+From4 316 13354
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+http://by138w.bay138.mail.live.com/mail/InboxLight.aspx 1 1
+http://www.powerhungryfoods.com/buyenergybeefsticks.htm 0 1
+http://www.powerhungryfoods.com/meatsponsors.htm 0 2
+http://powerhungryfoods.com/homepage.htm 0 2
+http://www.powerhungryfoods.com/rodreviews.htm 0 1
+http://www.powerhungryfoods.com/homepage.htm 0 34
+http://www.powerhungryfoods.com/nutritionalinformation.htm 0 1
+http://www.powerhungryfoods.com/aboutus.htm 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+401 42 17178
+302 5 25
+206 186 10326928
+405 2 496
+404 306 74324
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 91
+/images/lwbm/Product_Integrity_mouseclick.gif 3 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/FABQs.gif 4 -
+/images/lwbm/Corporate_Website_mouseclick.gif 4 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Site_Map_mouseover.gif 1 -
+/images/lwbm/Category_Data_mouseover.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Sample_Requests_mouseclick.gif 4 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Contact_Us_mouseclick.gif 1 -
+/images/lwbm/Sales_Tracker_mouseover.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Broker_Map_mouseclick.gif 4 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/IRI_Data.gif 3 -
+/images/lwbm/Suggestion_Box_mouseover.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Slotting_Requests_mouseover.gif 6 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Price_List.gif 4 -
+/images/lwbm/Sponsored_Events_mouseclick.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Insurance_Certificate_mouseclick.gif 4 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Credit_Applications_mouseover.gif 3 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Insurance_Certificate.gif 4 -
+/images/lwbm/Nutritional_Info_16_mouseover.gif 4 -
+/images/lwbm/Current_Promotions_mouseover.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Media_Support_mouseover.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Media_Support.gif 4 -
+/images/lwbm/Marketing_Supplies_mouseover.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Deduction_Policies.gif 4 -
+/images/lwbm/Credit_Applications_mouseclick.gif 3 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/FABQs_mouseover.gif 4 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/FABQs_mouseclick.gif 4 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Marketing_Supplies.gif 4 -
+/images/lwbm/Suggestion_Box_mouseclick.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Deduction_Policies_mouseclick.gif 4 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/PHF_Forms_mouseclick.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Nutritional_Info_1_16_mouseover.gif 11 http://www.phfmarketing.powerhungryfoods.com/contactus.html
+/images/lwbm/About_Us.gif 4 -
+/images/lwbm/Corporate_Website_mouseover.gif 5 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Category_Data.gif 4 -
+/images/lwbm/Sell_Sheets_mouseover.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Slotting_Requests.gif 4 -
+/images/lwbm/Price_List_mouseclick.gif 3 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Nutritional_Info_1_16.gif 15 -
+/images/lwbm/Deduction_Policies_mouseover.gif 4 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Broker_Map.gif 4 -
+/images/lwbm/Product_Specifications.gif 4 -
+/images/lwbm/Nutritional_Info_16.gif 2 -
+/images/lwbm/Current_Promotions_mouseclick.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/PHF_Forms.gif 4 -
+/images/lwbm/Sales_Tracker_mouseclick.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Site_Map_mouseclick.gif 1 -
+/images/lwbm/Promo_Request_Forms.gif 4 -
+/images/lwbm/PHF_Data_mouseclick.gif 1 -
+/images/lwbm/PHF_Data_mouseover.gif 1 -
+/images/lwbm/Product_Integrity_mouseover.gif 4 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/IRI_Data_mouseclick.gif 1 -
+/images/lwbm/Product_Integrity.gif 4 -
+/images/lwbm/Sales_Tracker.gif 4 -
+/images/lwbm/Premiums.gif 4 -
+/images/lwbm/Media_Support_mouseclick.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Credit_Applications.gif 4 -
+/images/lwbm/About_Us_mouseclick.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Premiums_mouseclick.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Product_Specifications_mouseclick.gif 3 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Home.gif 4 -
+/images/lwbm/Sell_Sheets.gif 4 -
+/images/lwbm/Suggestion_Box.gif 4 -
+/images/lwbm/Nielsen_Data_mouseover.gif 1 -
+/images/lwbm/Current_Promotions.gif 4 -
+/images/lwbm/Slotting_Requests_mouseclick.gif 4 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/PHF_Forms_mouseover.gif 4 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Promo_Request_Forms_mouseclick.gif 3 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Promo_Request_Forms_mouseover.gif 3 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Insurance_Certificate_mouseover.gif 5 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Marketing_Supplies_mouseclick.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Nutritional_Info_1_16_mouseclick.gif 10 http://www.phfmarketing.powerhungryfoods.com/aboutus.html
+/images/lwbm/Category_Data_mouseclick.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Site_Map.gif 4 -
+/images/lwbm/Contact_Us_mouseover.gif 1 -
+/images/lwbm/Nielsen_Data.gif 3 -
+/images/lwbm/IRI_Data_mouseover.gif 1 -
+/images/lwbm/Nutritional_Info_16_mouseclick.gif 2 -
+/images/lwbm/PHF_Data.gif 3 -
+/images/lwbm/Premiums_mouseover.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Price_List_mouseover.gif 3 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Broker_Map_mouseover.gif 4 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Corporate_Website.gif 4 -
+/images/lwbm/About_Us_mouseover.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Contact_Us.gif 4 -
+/images/lwbm/Sample_Requests.gif 4 -
+/images/lwbm/Sponsored_Events.gif 4 -
+/images/lwbm/Sponsored_Events_mouseover.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Nielsen_Data_mouseclick.gif 1 -
+/images/lwbm/Sample_Requests_mouseover.gif 5 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Product_Specifications_mouseover.gif 4 http://www.phfmarketing.powerhungryfoods.com/
+/images/lwbm/Sell_Sheets_mouseclick.gif 2 http://www.phfmarketing.powerhungryfoods.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 29
+70.89.59.42 2127 17101 67563708 20090227154929
+64.83.224.129 56 333 4411221 20090226162717
+97.104.136.62 55 171 2239266 20090227065241
+97.104.130.138 26 38 931145 20090220211952
+97.104.137.114 17 21 1244489 20090223084242
+97.104.129.62 16 29 1325359 20090219192828
+97.104.134.129 13 16 282804 20090216191841
+65.103.11.30 9 104 1121974 20090224130426
+97.104.131.160 9 94 342030 20090213122058
+97.104.132.241 8 9 16795 20090221100701
+166.216.160.77 6 19 434449 20090222163639
+209.183.34.44 3 89 661453 20090221163125
+75.206.202.37 2 84 394508 20090220114054
+68.39.57.52 0 1 2300 
+151.196.17.28 0 1 2300 
+74.7.93.241 0 1 2300 
+24.61.14.198 0 1 2300 
+66.185.5.22 0 1 2300 
+69.128.21.218 0 1 2300 
+67.8.184.171 0 1 2300 
+24.116.249.91 0 1 2300 
+75.172.246.124 0 2 2300 
+67.60.1.159 0 8 18400 
+68.38.121.92 5 99 659954 20090227154615
+97.104.135.20 7 12 57299 20090215084217
+96.18.62.190 0 1 2300 
+67.161.218.248 0 1 2300 
+75.80.0.238 0 1 2300 
+173.23.157.202 5 92 542108 20090220081215
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20090212 86 161 564034 2
+20090213 515 3622 10157222 4
+20090214 22 251 1054487 3
+20090215 2 2 0 1
+20090216 196 1533 7211044 10
+20090217 174 1585 6442561 2
+20090219 17 114 1634181 2
+20090220 536 2721 15119163 9
+20090221 11 99 680548 2
+20090222 39 283 1875904 2
+20090223 242 1100 8575441 6
+20090224 74 2293 10409754 5
+20090225 7 265 1342767 2
+20090226 191 1532 8872077 7
+20090227 252 2771 8335379 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 12
+5mn-15mn 13
+0s-30s 9
+2mn-5mn 10
+15mn-30mn 4
+30s-2mn 10
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 46
+/_vti_bin/_vti_aut/author.exe 1675 11496815 0 4
+/ 207 2987563 48 27
+/categorydata.html 51 763592 0 4
+/_vti_bin/shtml.exe/_vti_rpc 40 9600 0 0
+/_vti_inf.html 40 70160 13 0
+/aboutus.html 34 617620 1 2
+/dealandslottingform.html 26 457386 0 0
+/SponsoredEvents.pdf 25 3570281 0 6
+/suggestionbox.html 25 420969 0 4
+/PHFSlottingandDealSheetForm.xls 25 5043456 0 1
+/CreditApplication.pdf 6 125908 0 0
+/NielsenData122708.pdf 2 47260 0 0
+/MediaTVG4TVDemographic.pdf 4 904781 0 1
+/MagazineAdTickler2009.pdf 1 248295 0 0
+/samplerequests.html 15 390422 0 1
+/MintelIRIDataMeatSnacks.pdf 1 77040 0 0
+/mediasupport.html 22 247850 0 2
+/privacystatement.html 2 55912 0 0
+/buttonmasterpage.html 2 45568 0 0
+/DataIRIKeyTakeAway.pdf 1 84340 0 0
+/IRIKeyTake-awayData.pdf 1 66820 0 0
+/premiums.html 23 733407 0 0
+/sitemap.html 13 166443 0 2
+/DataIRIBeefStickPackaging.pdf 1 77916 0 0
+/MediaPressPHFPressRelease030609.pdf 7 354048 0 0
+/brokermap.html 13 158856 0 0
+/thankyou.html 6 131999 0 0
+/MediaPrintMagazineAdTickler.pdf 5 1046860 0 0
+/suggestionboxthankyou.html 1 21294 0 0
+/NielsenNewItems2008.pdf 4 331755 0 0
+/DataPHFCompetitiveAnalysis.pdf 2 237666 0 0
+/contactus.html 21 318228 0 2
+/NielsenData.pdf 9 94520 0 1
+/BeefStickPackaging.pdf 1 77916 0 0
+/BrokerCredit%20AppLow.pdf 5 157385 0 1
+/LRRetailPPTPresentation.pdf 2 181820 0 0
+/IRI-PHFMeatSnackDataLow.pdf 5 1054674 0 0
+/BrokerMap.pdf 17 1513080 0 1
+/G4TVDemographicInfo.pdf 1 244767 0 0
+/fabqs.html 15 113879 0 1
+/DataIRI-PHFMeatSnack.pdf 1 88720 0 0
+/DataNielsenNewItems.pdf 1 117920 0 0
+/IRI-PHFMeatSnackData2007.pdf 1 90180 0 1
+/DataPHFLRRetailPPT.pdf 1 96020 0 0
+/CompetitiveAnalysisSetforLR%20Low.pdf 1 118833 0 0
+/DataIRIMintelMeatSnacks.pdf 3 442820 0 1
+END_SIDER
